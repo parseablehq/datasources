@@ -1,0 +1,13 @@
+{
+  "id": "fluent-bit",
+  "name": "Fluent Bit",
+  "resource": "observability-agents",
+  "telemetry_types": ["logs", "metrics", "traces"],
+  "description": "Fluent Bit Agent",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/fluent-bit"
+  },
+  "assets": {
+    "logo": "assets/fluent-bit.svg"
+  }
+}

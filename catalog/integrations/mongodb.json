@@ -1,0 +1,13 @@
+{
+  "id": "mongodb",
+  "name": "MongoDB",
+  "resource": "databases",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "MongoDB Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/databases/mongodb"
+  },
+  "assets": {
+    "logo": "assets/MongoDB.svg"
+  }
+}

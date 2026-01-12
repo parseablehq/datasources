@@ -1,0 +1,13 @@
+{
+  "id": "javascript",
+  "name": "JavaScript",
+  "resource": "programming-languages",
+  "telemetry_types": ["logs"],
+  "description": "JavaScript SDK",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/javascript"
+  },
+  "assets": {
+    "logo": "assets/js.svg"
+  }
+}

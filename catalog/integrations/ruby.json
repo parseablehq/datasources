@@ -1,0 +1,13 @@
+{
+  "id": "ruby",
+  "name": "Ruby",
+  "resource": "programming-languages",
+  "telemetry_types": ["logs"],
+  "description": "Ruby SDK",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/ruby"
+  },
+  "assets": {
+    "logo": "assets/ruby.svg"
+  }
+}

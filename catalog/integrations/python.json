@@ -1,0 +1,13 @@
+{
+  "id": "python",
+  "name": "Python",
+  "resource": "programming-languages",
+  "telemetry_types": ["logs"],
+  "description": "Python SDK",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/python"
+  },
+  "assets": {
+    "logo": "assets/python.svg"
+  }
+}

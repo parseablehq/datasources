@@ -1,0 +1,16 @@
+{
+  "name": "@parseable/integrations-catalog",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare": "husky",
+    "validate": "node scripts/validate.mjs",
+    "groups": "node scripts/generate-groups.mjs",
+    "merge": "node scripts/merge.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "otel",
+  "name": "Otel",
+  "resource": "observability-agents",
+  "telemetry_types": ["logs", "metrics", "traces"],
+  "description": "OpenTelemetry Logs Agent",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/otel/logs"
+  },
+  "assets": { "logo": "assets/otel.svg" }
+}

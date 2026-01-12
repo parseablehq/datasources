@@ -1,0 +1,13 @@
+{
+  "id": "postgresql",
+  "name": "PostgreSQL",
+  "resource": "databases",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "PostgreSQL Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/databases/postgresql"
+  },
+  "assets": {
+    "logo": "assets/PostgresSQL.svg"
+  }
+}

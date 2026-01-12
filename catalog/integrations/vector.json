@@ -1,0 +1,13 @@
+{
+  "id": "vector",
+  "name": "Vector",
+  "resource": "observability-agents",
+  "telemetry_types": ["logs"],
+  "description": "Vector Agent",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/vector"
+  },
+  "assets": {
+    "logo": "assets/vector.svg"
+  }
+}

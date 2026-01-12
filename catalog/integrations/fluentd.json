@@ -1,0 +1,13 @@
+{
+  "id": "fluentd",
+  "name": "Fluentd",
+  "resource": "observability-agents",
+  "telemetry_types": ["logs"],
+  "description": "Fluentd Agent",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/fluentd"
+  },
+  "assets": {
+    "logo": "assets/fluentD.svg"
+  }
+}

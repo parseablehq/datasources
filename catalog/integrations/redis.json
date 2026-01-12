@@ -1,0 +1,13 @@
+{
+  "id": "redis",
+  "name": "Redis",
+  "resource": "databases",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "Redis Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/databases/redis"
+  },
+  "assets": {
+    "logo": "assets/redis.svg"
+  }
+}

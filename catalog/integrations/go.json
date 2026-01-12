@@ -1,0 +1,13 @@
+{
+  "id": "go",
+  "name": "Go",
+  "resource": "programming-languages",
+  "telemetry_types": ["logs"],
+  "description": "Go SDK",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/go"
+  },
+  "assets": {
+    "logo": "assets/go.svg"
+  }
+}

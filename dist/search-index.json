@@ -1,0 +1,275 @@
+[
+  {
+    "id": "apache-log4j-2",
+    "name": "Apache Log4j 2",
+    "resource": "observability-agents",
+    "telemetry_types": [
+      "logs"
+    ],
+    "tokens": [
+      "apache",
+      "log4j",
+      "2",
+      "agent",
+      "observability",
+      "agents",
+      "logs"
+    ]
+  },
+  {
+    "id": "fluent-bit",
+    "name": "Fluent Bit",
+    "resource": "observability-agents",
+    "telemetry_types": [
+      "logs",
+      "metrics",
+      "traces"
+    ],
+    "tokens": [
+      "fluent",
+      "bit",
+      "agent",
+      "observability",
+      "agents",
+      "logs",
+      "metrics",
+      "traces"
+    ]
+  },
+  {
+    "id": "fluentd",
+    "name": "Fluentd",
+    "resource": "observability-agents",
+    "telemetry_types": [
+      "logs"
+    ],
+    "tokens": [
+      "fluentd",
+      "agent",
+      "observability",
+      "agents",
+      "logs"
+    ]
+  },
+  {
+    "id": "logstash",
+    "name": "Logstash",
+    "resource": "observability-agents",
+    "telemetry_types": [
+      "logs"
+    ],
+    "tokens": [
+      "logstash",
+      "agent",
+      "observability",
+      "agents",
+      "logs"
+    ]
+  },
+  {
+    "id": "otel",
+    "name": "Otel",
+    "resource": "observability-agents",
+    "telemetry_types": [
+      "logs",
+      "metrics",
+      "traces"
+    ],
+    "tokens": [
+      "otel",
+      "opentelemetry",
+      "logs",
+      "agent",
+      "observability",
+      "agents",
+      "metrics",
+      "traces"
+    ]
+  },
+  {
+    "id": "syslog-ng",
+    "name": "Syslog-ng",
+    "resource": "observability-agents",
+    "telemetry_types": [
+      "logs"
+    ],
+    "tokens": [
+      "syslog",
+      "ng",
+      "agent",
+      "observability",
+      "agents",
+      "logs"
+    ]
+  },
+  {
+    "id": "vector",
+    "name": "Vector",
+    "resource": "observability-agents",
+    "telemetry_types": [
+      "logs"
+    ],
+    "tokens": [
+      "vector",
+      "agent",
+      "observability",
+      "agents",
+      "logs"
+    ]
+  },
+  {
+    "id": "go",
+    "name": "Go",
+    "resource": "programming-languages",
+    "telemetry_types": [
+      "logs"
+    ],
+    "tokens": [
+      "go",
+      "sdk",
+      "programming",
+      "languages",
+      "logs"
+    ]
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "resource": "programming-languages",
+    "telemetry_types": [
+      "logs"
+    ],
+    "tokens": [
+      "java",
+      "sdk",
+      "programming",
+      "languages",
+      "logs"
+    ]
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "resource": "programming-languages",
+    "telemetry_types": [
+      "logs"
+    ],
+    "tokens": [
+      "javascript",
+      "sdk",
+      "programming",
+      "languages",
+      "logs"
+    ]
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "resource": "programming-languages",
+    "telemetry_types": [
+      "logs"
+    ],
+    "tokens": [
+      "python",
+      "sdk",
+      "programming",
+      "languages",
+      "logs"
+    ]
+  },
+  {
+    "id": "ruby",
+    "name": "Ruby",
+    "resource": "programming-languages",
+    "telemetry_types": [
+      "logs"
+    ],
+    "tokens": [
+      "ruby",
+      "sdk",
+      "programming",
+      "languages",
+      "logs"
+    ]
+  },
+  {
+    "id": "elasticsearch",
+    "name": "Elasticsearch",
+    "resource": "databases",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "elasticsearch",
+      "integration",
+      "databases",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "resource": "databases",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "mongodb",
+      "integration",
+      "databases",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "mysql",
+    "name": "MySQL",
+    "resource": "databases",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "mysql",
+      "integration",
+      "databases",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "resource": "databases",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "postgresql",
+      "integration",
+      "databases",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "resource": "databases",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "redis",
+      "integration",
+      "databases",
+      "logs",
+      "metrics"
+    ]
+  }
+]

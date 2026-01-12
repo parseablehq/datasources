@@ -1,0 +1,13 @@
+{
+  "id": "elasticsearch",
+  "name": "Elasticsearch",
+  "resource": "databases",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "Elasticsearch Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/databases/elasticsearch"
+  },
+  "assets": {
+    "logo": "assets/elastic.svg"
+  }
+}

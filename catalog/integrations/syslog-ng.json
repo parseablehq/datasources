@@ -1,0 +1,13 @@
+{
+  "id": "syslog-ng",
+  "name": "Syslog-ng",
+  "resource": "observability-agents",
+  "telemetry_types": ["logs"],
+  "description": "Syslog-ng Agent",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/syslog-ng"
+  },
+  "assets": {
+    "logo": "assets/syslog-ng.svg"
+  }
+}

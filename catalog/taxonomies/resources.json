@@ -1,0 +1,13 @@
+[
+  {
+    "id": "observability-agents",
+    "label": "Observability agents",
+    "order": 10
+  },
+  {
+    "id": "programming-languages",
+    "label": "Programming languages",
+    "order": 20
+  },
+  { "id": "databases", "label": "Databases", "order": 30 }
+]

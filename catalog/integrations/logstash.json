@@ -1,0 +1,13 @@
+{
+  "id": "logstash",
+  "name": "Logstash",
+  "resource": "observability-agents",
+  "telemetry_types": ["logs"],
+  "description": "Logstash Agent",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/logstash"
+  },
+  "assets": {
+    "logo": "assets/logstash.svg"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://parseable.com/schemas/integrations-catalog.schema.json",
+  "title": "Parseable Integrations Catalog",
+  "type": "object",
+  "properties": {
+    "groups": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/group" }
+    },
+    "integrations": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/integration" }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "telemetryType": {
+      "type": "string",
+      "enum": ["logs", "metrics", "traces"]
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "docs": { "type": "string", "minLength": 1 }
+      },
+      "required": ["docs"],
+      "additionalProperties": true
+    },
+    "assets": {
+      "type": "object",
+      "properties": {
+        "logo": { "type": "string", "minLength": 1 }
+      },
+      "required": ["logo"],
+      "additionalProperties": false
+    },
+    "integration": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "name": { "type": "string", "minLength": 1 },
+        "resource": { "type": "string", "minLength": 1 },
+        "telemetry_types": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/telemetryType" },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "description": { "type": "string", "minLength": 1 },
+        "links": { "$ref": "#/$defs/links" },
+        "assets": { "$ref": "#/$defs/assets" }
+      },
+      "required": [
+        "id",
+        "name",
+        "resource",
+        "telemetry_types",
+        "description",
+        "links",
+        "assets"
+      ],
+      "additionalProperties": true
+    },
+    "group": {
+      "type": "object",
+      "properties": {
+        "resource": { "type": "string", "minLength": 1 },
+        "sources": {
+          "type": "array",
+          "items": {
+            "allOf": [
+              { "$ref": "#/$defs/integration" },
+              {
+                "properties": {
+                  "resource": false
+                }
+              }
+            ]
+          }
+        }
+      },
+      "required": ["resource", "sources"],
+      "additionalProperties": false
+    }
+  }
+}

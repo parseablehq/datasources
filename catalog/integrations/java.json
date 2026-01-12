@@ -1,0 +1,13 @@
+{
+  "id": "java",
+  "name": "Java",
+  "resource": "programming-languages",
+  "telemetry_types": ["logs"],
+  "description": "Java SDK",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/java"
+  },
+  "assets": {
+    "logo": "assets/java.svg"
+  }
+}

@@ -1,0 +1,6 @@
+# Mark generated files so GitHub and tooling treat them as generated
+catalog/groups.json linguist-generated=true
+dist/* linguist-generated=true
+
+# Avoid noisy diffs for minified artifacts
+dist/*.min.json -diff

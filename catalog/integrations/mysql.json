@@ -1,0 +1,13 @@
+{
+  "id": "mysql",
+  "name": "MySQL",
+  "resource": "databases",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "MySQL Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/databases/mysql"
+  },
+  "assets": {
+    "logo": "assets/MySQL.svg"
+  }
+}

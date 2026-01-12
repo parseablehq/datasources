@@ -1,0 +1,264 @@
+[
+  {
+    "resource": "observability-agents",
+    "sources": [
+      {
+        "id": "apache-log4j-2",
+        "name": "Apache Log4j 2",
+        "telemetry_types": [
+          "logs"
+        ],
+        "description": "Apache Log4j 2 Agent",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/apache-log-4j"
+        },
+        "assets": {
+          "logo": "assets/log4j.svg"
+        }
+      },
+      {
+        "id": "fluent-bit",
+        "name": "Fluent Bit",
+        "telemetry_types": [
+          "logs",
+          "metrics",
+          "traces"
+        ],
+        "description": "Fluent Bit Agent",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/fluent-bit"
+        },
+        "assets": {
+          "logo": "assets/fluent-bit.svg"
+        }
+      },
+      {
+        "id": "fluentd",
+        "name": "Fluentd",
+        "telemetry_types": [
+          "logs"
+        ],
+        "description": "Fluentd Agent",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/fluentd"
+        },
+        "assets": {
+          "logo": "assets/fluentD.svg"
+        }
+      },
+      {
+        "id": "logstash",
+        "name": "Logstash",
+        "telemetry_types": [
+          "logs"
+        ],
+        "description": "Logstash Agent",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/logstash"
+        },
+        "assets": {
+          "logo": "assets/logstash.svg"
+        }
+      },
+      {
+        "id": "otel",
+        "name": "Otel",
+        "telemetry_types": [
+          "logs",
+          "metrics",
+          "traces"
+        ],
+        "description": "OpenTelemetry Logs Agent",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/otel/logs"
+        },
+        "assets": {
+          "logo": "assets/otel.svg"
+        }
+      },
+      {
+        "id": "syslog-ng",
+        "name": "Syslog-ng",
+        "telemetry_types": [
+          "logs"
+        ],
+        "description": "Syslog-ng Agent",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/syslog-ng"
+        },
+        "assets": {
+          "logo": "assets/syslog-ng.svg"
+        }
+      },
+      {
+        "id": "vector",
+        "name": "Vector",
+        "telemetry_types": [
+          "logs"
+        ],
+        "description": "Vector Agent",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/vector"
+        },
+        "assets": {
+          "logo": "assets/vector.svg"
+        }
+      }
+    ]
+  },
+  {
+    "resource": "programming-languages",
+    "sources": [
+      {
+        "id": "go",
+        "name": "Go",
+        "telemetry_types": [
+          "logs"
+        ],
+        "description": "Go SDK",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/go"
+        },
+        "assets": {
+          "logo": "assets/go.svg"
+        }
+      },
+      {
+        "id": "java",
+        "name": "Java",
+        "telemetry_types": [
+          "logs"
+        ],
+        "description": "Java SDK",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/java"
+        },
+        "assets": {
+          "logo": "assets/java.svg"
+        }
+      },
+      {
+        "id": "javascript",
+        "name": "JavaScript",
+        "telemetry_types": [
+          "logs"
+        ],
+        "description": "JavaScript SDK",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/javascript"
+        },
+        "assets": {
+          "logo": "assets/js.svg"
+        }
+      },
+      {
+        "id": "python",
+        "name": "Python",
+        "telemetry_types": [
+          "logs"
+        ],
+        "description": "Python SDK",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/python"
+        },
+        "assets": {
+          "logo": "assets/python.svg"
+        }
+      },
+      {
+        "id": "ruby",
+        "name": "Ruby",
+        "telemetry_types": [
+          "logs"
+        ],
+        "description": "Ruby SDK",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/ruby"
+        },
+        "assets": {
+          "logo": "assets/ruby.svg"
+        }
+      }
+    ]
+  },
+  {
+    "resource": "databases",
+    "sources": [
+      {
+        "id": "elasticsearch",
+        "name": "Elasticsearch",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "Elasticsearch Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/databases/elasticsearch"
+        },
+        "assets": {
+          "logo": "assets/elastic.svg"
+        }
+      },
+      {
+        "id": "mongodb",
+        "name": "MongoDB",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "MongoDB Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/databases/mongodb"
+        },
+        "assets": {
+          "logo": "assets/MongoDB.svg"
+        }
+      },
+      {
+        "id": "mysql",
+        "name": "MySQL",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "MySQL Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/databases/mysql"
+        },
+        "assets": {
+          "logo": "assets/MySQL.svg"
+        }
+      },
+      {
+        "id": "postgresql",
+        "name": "PostgreSQL",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "PostgreSQL Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/databases/postgresql"
+        },
+        "assets": {
+          "logo": "assets/PostgresSQL.svg"
+        }
+      },
+      {
+        "id": "redis",
+        "name": "Redis",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "Redis Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/databases/redis"
+        },
+        "assets": {
+          "logo": "assets/redis.svg"
+        }
+      }
+    ]
+  }
+]
