@@ -1,13 +1,49 @@
 [
   {
-    "id": "observability-agents",
-    "label": "Observability agents",
+    "id": "opentelemetry",
+    "label": "OpenTelemetry",
+    "order": 1
+  },
+  {
+    "id": "ebpf",
+    "label": "eBPF",
+    "order": 2
+  },
+  { "id": "llm-ai-agents", "label": "LLMs & AI Agents", "order": 3 },
+  { "id": "telemetry-agents", "label": "Telemetry Agents", "order": 4 },
+  {
+    "id": "databases",
+    "label": "Databases",
+    "order": 5
+  },
+  {
+    "id": "containers",
+    "label": "Containers",
+    "order": 6
+  },
+  {
+    "id": "streaming",
+    "label": "Streaming",
+    "order": 7
+  },
+  {
+    "id": "ci-cd",
+    "label": "CI/CD",
+    "order": 8
+  },
+  {
+    "id": "cloud-providers",
+    "label": "Cloud Providers",
+    "order": 9
+  },
+  {
+    "id": "security",
+    "label": "Security",
     "order": 10
   },
   {
     "id": "programming-languages",
-    "label": "Programming languages",
-    "order": 20
-  },
-  { "id": "databases", "label": "Databases", "order": 30 }
+    "label": "Programming Languages",
+    "order": 11
+  }
 ]
