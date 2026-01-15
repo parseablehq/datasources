@@ -2,8 +2,8 @@
 
 pnpm build
 
-# Auto-stage generated artifacts so commits do not fail on first run
-git add catalog/groups.json dist
+# Auto-stage all build outputs and new integrations
+git add -A
 
 # If anything else is still dirty, fail
 if [ -n "$(git status --porcelain)" ]; then
