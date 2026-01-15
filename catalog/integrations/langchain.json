@@ -1,0 +1,11 @@
+{
+  "id": "langchain",
+  "name": "LangChain",
+  "resource": "llm-ai-agents",
+  "telemetry_types": ["logs", "metrics", "traces"],
+  "description": "LangChain Agent",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/langchain/logs"
+  },
+  "assets": { "logo": "assets/langchain.svg" }
+}

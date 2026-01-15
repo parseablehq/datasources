@@ -1,0 +1,13 @@
+{
+  "id": "promtail",
+  "name": "Promtail",
+  "resource": "telemetry-agents",
+  "telemetry_types": ["logs"],
+  "description": "Promtail Agent",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/promtail"
+  },
+  "assets": {
+    "logo": "assets/loki.svg"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "aws-ecs",
+  "name": "AWS ECS",
+  "resource": "containers",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "AWS ECS Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/aws-ecs"
+  },
+  "assets": {
+    "logo": "assets/aws-ecs.svg"
+  }
+}

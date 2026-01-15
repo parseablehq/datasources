@@ -1,7 +1,7 @@
 {
   "id": "logstash",
   "name": "Logstash",
-  "resource": "observability-agents",
+  "resource": "telemetry-agents",
   "telemetry_types": ["logs"],
   "description": "Logstash Agent",
   "links": {

@@ -1,0 +1,11 @@
+{
+  "id": "openai",
+  "name": "OpenAI",
+  "resource": "llm-ai-agents",
+  "telemetry_types": ["logs", "metrics", "traces"],
+  "description": "OpenAI Agent",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/openai/logs"
+  },
+  "assets": { "logo": "assets/openai.svg" }
+}

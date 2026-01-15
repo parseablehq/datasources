@@ -1,0 +1,13 @@
+{
+  "id": "circle-ci",
+  "name": "CircleCI",
+  "resource": "ci-cd",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "CircleCI Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/circle-ci"
+  },
+  "assets": {
+    "logo": "assets/circle-ci.svg"
+  }
+}

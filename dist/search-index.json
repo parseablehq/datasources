@@ -1,8 +1,203 @@
 [
   {
+    "id": "otel",
+    "name": "Otel",
+    "resource": "opentelemetry",
+    "telemetry_types": [
+      "logs",
+      "metrics",
+      "traces"
+    ],
+    "tokens": [
+      "otel",
+      "opentelemetry",
+      "agent",
+      "logs",
+      "metrics",
+      "traces"
+    ]
+  },
+  {
+    "id": "ebpf",
+    "name": "eBPF",
+    "resource": "ebpf",
+    "telemetry_types": [
+      "logs",
+      "metrics",
+      "traces"
+    ],
+    "tokens": [
+      "ebpf",
+      "agent",
+      "logs",
+      "metrics",
+      "traces"
+    ]
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "resource": "llm-ai-agents",
+    "telemetry_types": [
+      "logs",
+      "metrics",
+      "traces"
+    ],
+    "tokens": [
+      "anthropic",
+      "agent",
+      "llms",
+      "ai",
+      "agents",
+      "logs",
+      "metrics",
+      "traces"
+    ]
+  },
+  {
+    "id": "autogen",
+    "name": "AutoGen",
+    "resource": "llm-ai-agents",
+    "telemetry_types": [
+      "logs",
+      "metrics",
+      "traces"
+    ],
+    "tokens": [
+      "autogen",
+      "agent",
+      "llms",
+      "ai",
+      "agents",
+      "logs",
+      "metrics",
+      "traces"
+    ]
+  },
+  {
+    "id": "crew-ai",
+    "name": "CrewAI",
+    "resource": "llm-ai-agents",
+    "telemetry_types": [
+      "logs",
+      "metrics",
+      "traces"
+    ],
+    "tokens": [
+      "crewai",
+      "agent",
+      "llms",
+      "ai",
+      "agents",
+      "logs",
+      "metrics",
+      "traces"
+    ]
+  },
+  {
+    "id": "dspy",
+    "name": "DSPy",
+    "resource": "llm-ai-agents",
+    "telemetry_types": [
+      "logs",
+      "metrics",
+      "traces"
+    ],
+    "tokens": [
+      "dspy",
+      "agent",
+      "llms",
+      "ai",
+      "agents",
+      "logs",
+      "metrics",
+      "traces"
+    ]
+  },
+  {
+    "id": "langchain",
+    "name": "LangChain",
+    "resource": "llm-ai-agents",
+    "telemetry_types": [
+      "logs",
+      "metrics",
+      "traces"
+    ],
+    "tokens": [
+      "langchain",
+      "agent",
+      "llms",
+      "ai",
+      "agents",
+      "logs",
+      "metrics",
+      "traces"
+    ]
+  },
+  {
+    "id": "llama-index",
+    "name": "LlamaIndex",
+    "resource": "llm-ai-agents",
+    "telemetry_types": [
+      "logs",
+      "metrics",
+      "traces"
+    ],
+    "tokens": [
+      "llamaindex",
+      "agent",
+      "llms",
+      "ai",
+      "agents",
+      "logs",
+      "metrics",
+      "traces"
+    ]
+  },
+  {
+    "id": "n8n",
+    "name": "N8n",
+    "resource": "llm-ai-agents",
+    "telemetry_types": [
+      "logs",
+      "metrics",
+      "traces"
+    ],
+    "tokens": [
+      "n8n",
+      "agent",
+      "llms",
+      "ai",
+      "agents",
+      "logs",
+      "metrics",
+      "traces"
+    ]
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "resource": "llm-ai-agents",
+    "telemetry_types": [
+      "logs",
+      "metrics",
+      "traces"
+    ],
+    "tokens": [
+      "openai",
+      "agent",
+      "llms",
+      "ai",
+      "agents",
+      "logs",
+      "metrics",
+      "traces"
+    ]
+  },
+  {
     "id": "apache-log4j-2",
     "name": "Apache Log4j 2",
-    "resource": "observability-agents",
+    "resource": "telemetry-agents",
     "telemetry_types": [
       "logs"
     ],
@@ -11,7 +206,22 @@
       "log4j",
       "2",
       "agent",
-      "observability",
+      "telemetry",
+      "agents",
+      "logs"
+    ]
+  },
+  {
+    "id": "filebeat",
+    "name": "Filebeat",
+    "resource": "telemetry-agents",
+    "telemetry_types": [
+      "logs"
+    ],
+    "tokens": [
+      "filebeat",
+      "agent",
+      "telemetry",
       "agents",
       "logs"
     ]
@@ -19,7 +229,7 @@
   {
     "id": "fluent-bit",
     "name": "Fluent Bit",
-    "resource": "observability-agents",
+    "resource": "telemetry-agents",
     "telemetry_types": [
       "logs",
       "metrics",
@@ -29,7 +239,7 @@
       "fluent",
       "bit",
       "agent",
-      "observability",
+      "telemetry",
       "agents",
       "logs",
       "metrics",
@@ -39,14 +249,14 @@
   {
     "id": "fluentd",
     "name": "Fluentd",
-    "resource": "observability-agents",
+    "resource": "telemetry-agents",
     "telemetry_types": [
       "logs"
     ],
     "tokens": [
       "fluentd",
       "agent",
-      "observability",
+      "telemetry",
       "agents",
       "logs"
     ]
@@ -54,42 +264,52 @@
   {
     "id": "logstash",
     "name": "Logstash",
-    "resource": "observability-agents",
+    "resource": "telemetry-agents",
     "telemetry_types": [
       "logs"
     ],
     "tokens": [
       "logstash",
       "agent",
-      "observability",
+      "telemetry",
       "agents",
       "logs"
     ]
   },
   {
-    "id": "otel",
-    "name": "Otel",
-    "resource": "observability-agents",
+    "id": "prometheus",
+    "name": "Prometheus",
+    "resource": "telemetry-agents",
     "telemetry_types": [
-      "logs",
-      "metrics",
-      "traces"
+      "metrics"
     ],
     "tokens": [
-      "otel",
-      "opentelemetry",
-      "logs",
+      "prometheus",
       "agent",
-      "observability",
+      "telemetry",
       "agents",
-      "metrics",
-      "traces"
+      "metrics"
+    ]
+  },
+  {
+    "id": "promtail",
+    "name": "Promtail",
+    "resource": "telemetry-agents",
+    "telemetry_types": [
+      "logs"
+    ],
+    "tokens": [
+      "promtail",
+      "agent",
+      "telemetry",
+      "agents",
+      "logs"
     ]
   },
   {
     "id": "syslog-ng",
     "name": "Syslog-ng",
-    "resource": "observability-agents",
+    "resource": "telemetry-agents",
     "telemetry_types": [
       "logs"
     ],
@@ -97,7 +317,7 @@
       "syslog",
       "ng",
       "agent",
-      "observability",
+      "telemetry",
       "agents",
       "logs"
     ]
@@ -105,90 +325,15 @@
   {
     "id": "vector",
     "name": "Vector",
-    "resource": "observability-agents",
+    "resource": "telemetry-agents",
     "telemetry_types": [
       "logs"
     ],
     "tokens": [
       "vector",
       "agent",
-      "observability",
+      "telemetry",
       "agents",
-      "logs"
-    ]
-  },
-  {
-    "id": "go",
-    "name": "Go",
-    "resource": "programming-languages",
-    "telemetry_types": [
-      "logs"
-    ],
-    "tokens": [
-      "go",
-      "sdk",
-      "programming",
-      "languages",
-      "logs"
-    ]
-  },
-  {
-    "id": "java",
-    "name": "Java",
-    "resource": "programming-languages",
-    "telemetry_types": [
-      "logs"
-    ],
-    "tokens": [
-      "java",
-      "sdk",
-      "programming",
-      "languages",
-      "logs"
-    ]
-  },
-  {
-    "id": "javascript",
-    "name": "JavaScript",
-    "resource": "programming-languages",
-    "telemetry_types": [
-      "logs"
-    ],
-    "tokens": [
-      "javascript",
-      "sdk",
-      "programming",
-      "languages",
-      "logs"
-    ]
-  },
-  {
-    "id": "python",
-    "name": "Python",
-    "resource": "programming-languages",
-    "telemetry_types": [
-      "logs"
-    ],
-    "tokens": [
-      "python",
-      "sdk",
-      "programming",
-      "languages",
-      "logs"
-    ]
-  },
-  {
-    "id": "ruby",
-    "name": "Ruby",
-    "resource": "programming-languages",
-    "telemetry_types": [
-      "logs"
-    ],
-    "tokens": [
-      "ruby",
-      "sdk",
-      "programming",
-      "languages",
       "logs"
     ]
   },
@@ -270,6 +415,472 @@
       "databases",
       "logs",
       "metrics"
+    ]
+  },
+  {
+    "id": "aws-ecs",
+    "name": "AWS ECS",
+    "resource": "containers",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "aws",
+      "ecs",
+      "integration",
+      "containers",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "aws-eks",
+    "name": "AWS EKS",
+    "resource": "containers",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "aws",
+      "eks",
+      "integration",
+      "containers",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "azure-aks",
+    "name": "Azure AKS",
+    "resource": "containers",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "azure",
+      "aks",
+      "integration",
+      "containers",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "resource": "containers",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "docker",
+      "integration",
+      "containers",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "gcp-gke",
+    "name": "Google GKE",
+    "resource": "containers",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "google",
+      "gke",
+      "gcp",
+      "integration",
+      "containers",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "resource": "containers",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "kubernetes",
+      "integration",
+      "containers",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "kafka",
+    "name": "Kafka",
+    "resource": "streaming",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "kafka",
+      "integration",
+      "streaming",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "nats",
+    "name": "NATS",
+    "resource": "streaming",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "nats",
+      "integration",
+      "streaming",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "rabbitmq",
+    "name": "RabbitMQ",
+    "resource": "streaming",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "rabbitmq",
+      "integration",
+      "streaming",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "redpanda",
+    "name": "Redpanda",
+    "resource": "streaming",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "redpanda",
+      "integration",
+      "streaming",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "argocd",
+    "name": "ArgoCD",
+    "resource": "ci-cd",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "argocd",
+      "integration",
+      "ci",
+      "cd",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "circle-ci",
+    "name": "CircleCI",
+    "resource": "ci-cd",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "circleci",
+      "integration",
+      "ci",
+      "cd",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "github-actions",
+    "name": "GitHub Actions",
+    "resource": "ci-cd",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "github",
+      "actions",
+      "integration",
+      "ci",
+      "cd",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "gitlab",
+    "name": "GitLab",
+    "resource": "ci-cd",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "gitlab",
+      "integration",
+      "ci",
+      "cd",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "jenkins",
+    "name": "Jenkins",
+    "resource": "ci-cd",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "jenkins",
+      "integration",
+      "ci",
+      "cd",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "terraform",
+    "name": "Terraform",
+    "resource": "ci-cd",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "terraform",
+      "integration",
+      "ci",
+      "cd",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "aws-cloudwatch",
+    "name": "AWS CloudWatch",
+    "resource": "cloud-providers",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "aws",
+      "cloudwatch",
+      "integration",
+      "cloud",
+      "providers",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "aws-kinesis",
+    "name": "AWS Kinesis",
+    "resource": "cloud-providers",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "aws",
+      "kinesis",
+      "integration",
+      "cloud",
+      "providers",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "azure-events-hubs",
+    "name": "Azure Events Hubs",
+    "resource": "cloud-providers",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "azure",
+      "events",
+      "hubs",
+      "integration",
+      "cloud",
+      "providers",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "google-pub-sub",
+    "name": "Google Cloud Pub/Sub",
+    "resource": "cloud-providers",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "google",
+      "cloud",
+      "pub",
+      "sub",
+      "integration",
+      "providers",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "falco",
+    "name": "Falco",
+    "resource": "security",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "falco",
+      "integration",
+      "security",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "siem-export",
+    "name": "SIEM Export",
+    "resource": "security",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "siem",
+      "export",
+      "integration",
+      "security",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "trivy",
+    "name": "Trivy",
+    "resource": "security",
+    "telemetry_types": [
+      "logs",
+      "metrics"
+    ],
+    "tokens": [
+      "trivy",
+      "integration",
+      "security",
+      "logs",
+      "metrics"
+    ]
+  },
+  {
+    "id": "go",
+    "name": "Go",
+    "resource": "programming-languages",
+    "telemetry_types": [
+      "logs"
+    ],
+    "tokens": [
+      "go",
+      "sdk",
+      "programming",
+      "languages",
+      "logs"
+    ]
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "resource": "programming-languages",
+    "telemetry_types": [
+      "logs"
+    ],
+    "tokens": [
+      "java",
+      "sdk",
+      "programming",
+      "languages",
+      "logs"
+    ]
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "resource": "programming-languages",
+    "telemetry_types": [
+      "logs"
+    ],
+    "tokens": [
+      "javascript",
+      "sdk",
+      "programming",
+      "languages",
+      "logs"
+    ]
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "resource": "programming-languages",
+    "telemetry_types": [
+      "logs"
+    ],
+    "tokens": [
+      "python",
+      "sdk",
+      "programming",
+      "languages",
+      "logs"
+    ]
+  },
+  {
+    "id": "ruby",
+    "name": "Ruby",
+    "resource": "programming-languages",
+    "telemetry_types": [
+      "logs"
+    ],
+    "tokens": [
+      "ruby",
+      "sdk",
+      "programming",
+      "languages",
+      "logs"
     ]
   }
 ]

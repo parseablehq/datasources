@@ -1,0 +1,13 @@
+{
+  "id": "terraform",
+  "name": "Terraform",
+  "resource": "ci-cd",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "Terraform Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/terraform"
+  },
+  "assets": {
+    "logo": "assets/terraform.svg"
+  }
+}

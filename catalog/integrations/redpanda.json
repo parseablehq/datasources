@@ -1,0 +1,13 @@
+{
+  "id": "redpanda",
+  "name": "Redpanda",
+  "resource": "streaming",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "Redpanda Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/redpanda"
+  },
+  "assets": {
+    "logo": "assets/redpanda.svg"
+  }
+}

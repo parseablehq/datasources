@@ -1,0 +1,13 @@
+{
+  "id": "github-actions",
+  "name": "GitHub Actions",
+  "resource": "ci-cd",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "GitHub Actions Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/github-actions"
+  },
+  "assets": {
+    "logo": "assets/github-actions.svg"
+  }
+}

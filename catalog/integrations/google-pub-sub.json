@@ -1,0 +1,13 @@
+{
+  "id": "google-pub-sub",
+  "name": "Google Cloud Pub/Sub",
+  "resource": "cloud-providers",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "Google Cloud Pub/Sub Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/google-pub-sub"
+  },
+  "assets": {
+    "logo": "assets/google-pub-sub.svg"
+  }
+}

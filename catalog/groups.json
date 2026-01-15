@@ -1,6 +1,181 @@
 [
   {
-    "resource": "observability-agents",
+    "resource": "opentelemetry",
+    "sources": [
+      {
+        "id": "otel",
+        "name": "Otel",
+        "telemetry_types": [
+          "logs",
+          "metrics",
+          "traces"
+        ],
+        "description": "OpenTelemetry Agent",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/otel/logs"
+        },
+        "assets": {
+          "logo": "assets/otel.svg"
+        }
+      }
+    ]
+  },
+  {
+    "resource": "ebpf",
+    "sources": [
+      {
+        "id": "ebpf",
+        "name": "eBPF",
+        "telemetry_types": [
+          "logs",
+          "metrics",
+          "traces"
+        ],
+        "description": "eBPF Agent",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/ebpf/logs"
+        },
+        "assets": {
+          "logo": "assets/ebpf.svg"
+        }
+      }
+    ]
+  },
+  {
+    "resource": "llm-ai-agents",
+    "sources": [
+      {
+        "id": "anthropic",
+        "name": "Anthropic",
+        "telemetry_types": [
+          "logs",
+          "metrics",
+          "traces"
+        ],
+        "description": "Anthropic Agent",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/anthropic/logs"
+        },
+        "assets": {
+          "logo": "assets/anthropic.svg"
+        }
+      },
+      {
+        "id": "autogen",
+        "name": "AutoGen",
+        "telemetry_types": [
+          "logs",
+          "metrics",
+          "traces"
+        ],
+        "description": "AutoGen Agent",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/autogen/logs"
+        },
+        "assets": {
+          "logo": "assets/autogen.svg"
+        }
+      },
+      {
+        "id": "crew-ai",
+        "name": "CrewAI",
+        "telemetry_types": [
+          "logs",
+          "metrics",
+          "traces"
+        ],
+        "description": "CrewAI Agent",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/crew-ai/logs"
+        },
+        "assets": {
+          "logo": "assets/crewai.svg"
+        }
+      },
+      {
+        "id": "dspy",
+        "name": "DSPy",
+        "telemetry_types": [
+          "logs",
+          "metrics",
+          "traces"
+        ],
+        "description": "DSPy Agent",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/dspy/logs"
+        },
+        "assets": {
+          "logo": "assets/dspy.png"
+        }
+      },
+      {
+        "id": "langchain",
+        "name": "LangChain",
+        "telemetry_types": [
+          "logs",
+          "metrics",
+          "traces"
+        ],
+        "description": "LangChain Agent",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/langchain/logs"
+        },
+        "assets": {
+          "logo": "assets/langchain.svg"
+        }
+      },
+      {
+        "id": "llama-index",
+        "name": "LlamaIndex",
+        "telemetry_types": [
+          "logs",
+          "metrics",
+          "traces"
+        ],
+        "description": "LlamaIndex Agent",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/llama-index/logs"
+        },
+        "assets": {
+          "logo": "assets/llama-index.svg"
+        }
+      },
+      {
+        "id": "n8n",
+        "name": "N8n",
+        "telemetry_types": [
+          "logs",
+          "metrics",
+          "traces"
+        ],
+        "description": "N8n Agent",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/n8n/logs"
+        },
+        "assets": {
+          "logo": "assets/n8n.svg"
+        }
+      },
+      {
+        "id": "openai",
+        "name": "OpenAI",
+        "telemetry_types": [
+          "logs",
+          "metrics",
+          "traces"
+        ],
+        "description": "OpenAI Agent",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/openai/logs"
+        },
+        "assets": {
+          "logo": "assets/openai.svg"
+        }
+      }
+    ]
+  },
+  {
+    "resource": "telemetry-agents",
     "sources": [
       {
         "id": "apache-log4j-2",
@@ -14,6 +189,20 @@
         },
         "assets": {
           "logo": "assets/log4j.svg"
+        }
+      },
+      {
+        "id": "filebeat",
+        "name": "Filebeat",
+        "telemetry_types": [
+          "logs"
+        ],
+        "description": "Filebeat Agent",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/filebeat"
+        },
+        "assets": {
+          "logo": "assets/filebeat.svg"
         }
       },
       {
@@ -61,19 +250,31 @@
         }
       },
       {
-        "id": "otel",
-        "name": "Otel",
+        "id": "prometheus",
+        "name": "Prometheus",
         "telemetry_types": [
-          "logs",
-          "metrics",
-          "traces"
+          "metrics"
         ],
-        "description": "OpenTelemetry Logs Agent",
+        "description": "Prometheus Agent",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/otel/logs"
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/prometheus"
         },
         "assets": {
-          "logo": "assets/otel.svg"
+          "logo": "assets/prometheus.svg"
+        }
+      },
+      {
+        "id": "promtail",
+        "name": "Promtail",
+        "telemetry_types": [
+          "logs"
+        ],
+        "description": "Promtail Agent",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/promtail"
+        },
+        "assets": {
+          "logo": "assets/loki.svg"
         }
       },
       {
@@ -102,81 +303,6 @@
         },
         "assets": {
           "logo": "assets/vector.svg"
-        }
-      }
-    ]
-  },
-  {
-    "resource": "programming-languages",
-    "sources": [
-      {
-        "id": "go",
-        "name": "Go",
-        "telemetry_types": [
-          "logs"
-        ],
-        "description": "Go SDK",
-        "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/go"
-        },
-        "assets": {
-          "logo": "assets/go.svg"
-        }
-      },
-      {
-        "id": "java",
-        "name": "Java",
-        "telemetry_types": [
-          "logs"
-        ],
-        "description": "Java SDK",
-        "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/java"
-        },
-        "assets": {
-          "logo": "assets/java.svg"
-        }
-      },
-      {
-        "id": "javascript",
-        "name": "JavaScript",
-        "telemetry_types": [
-          "logs"
-        ],
-        "description": "JavaScript SDK",
-        "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/javascript"
-        },
-        "assets": {
-          "logo": "assets/js.svg"
-        }
-      },
-      {
-        "id": "python",
-        "name": "Python",
-        "telemetry_types": [
-          "logs"
-        ],
-        "description": "Python SDK",
-        "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/python"
-        },
-        "assets": {
-          "logo": "assets/python.svg"
-        }
-      },
-      {
-        "id": "ruby",
-        "name": "Ruby",
-        "telemetry_types": [
-          "logs"
-        ],
-        "description": "Ruby SDK",
-        "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/ruby"
-        },
-        "assets": {
-          "logo": "assets/ruby.svg"
         }
       }
     ]
@@ -257,6 +383,451 @@
         },
         "assets": {
           "logo": "assets/redis.svg"
+        }
+      }
+    ]
+  },
+  {
+    "resource": "containers",
+    "sources": [
+      {
+        "id": "aws-ecs",
+        "name": "AWS ECS",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "AWS ECS Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/aws-ecs"
+        },
+        "assets": {
+          "logo": "assets/aws-ecs.svg"
+        }
+      },
+      {
+        "id": "aws-eks",
+        "name": "AWS EKS",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "AWS EKS Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/aws-eks"
+        },
+        "assets": {
+          "logo": "assets/aws-eks.svg"
+        }
+      },
+      {
+        "id": "azure-aks",
+        "name": "Azure AKS",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "Azure AKS Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/azure-aks"
+        },
+        "assets": {
+          "logo": "assets/azure-aks.svg"
+        }
+      },
+      {
+        "id": "docker",
+        "name": "Docker",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "Docker Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/docker"
+        },
+        "assets": {
+          "logo": "assets/docker.svg"
+        }
+      },
+      {
+        "id": "gcp-gke",
+        "name": "Google GKE",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "GCP GKE Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/gcp-gke"
+        },
+        "assets": {
+          "logo": "assets/gcp-gke.svg"
+        }
+      },
+      {
+        "id": "kubernetes",
+        "name": "Kubernetes",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "Kubernetes Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/kubernetes"
+        },
+        "assets": {
+          "logo": "assets/kubernetes.svg"
+        }
+      }
+    ]
+  },
+  {
+    "resource": "streaming",
+    "sources": [
+      {
+        "id": "kafka",
+        "name": "Kafka",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "Kafka Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/messaging/kafka"
+        },
+        "assets": {
+          "logo": "assets/kafka.svg"
+        }
+      },
+      {
+        "id": "nats",
+        "name": "NATS",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "NATS Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/nats"
+        },
+        "assets": {
+          "logo": "assets/nats.svg"
+        }
+      },
+      {
+        "id": "rabbitmq",
+        "name": "RabbitMQ",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "RabbitMQ Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/rabbitmq"
+        },
+        "assets": {
+          "logo": "assets/rabbitmq.svg"
+        }
+      },
+      {
+        "id": "redpanda",
+        "name": "Redpanda",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "Redpanda Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/redpanda"
+        },
+        "assets": {
+          "logo": "assets/redpanda.svg"
+        }
+      }
+    ]
+  },
+  {
+    "resource": "ci-cd",
+    "sources": [
+      {
+        "id": "argocd",
+        "name": "ArgoCD",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "ArgoCD Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/argocd"
+        },
+        "assets": {
+          "logo": "assets/argo-cd.svg"
+        }
+      },
+      {
+        "id": "circle-ci",
+        "name": "CircleCI",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "CircleCI Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/circle-ci"
+        },
+        "assets": {
+          "logo": "assets/circle-ci.svg"
+        }
+      },
+      {
+        "id": "github-actions",
+        "name": "GitHub Actions",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "GitHub Actions Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/github-actions"
+        },
+        "assets": {
+          "logo": "assets/github-actions.svg"
+        }
+      },
+      {
+        "id": "gitlab",
+        "name": "GitLab",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "GitLab Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/gitlab"
+        },
+        "assets": {
+          "logo": "assets/gitlab.svg"
+        }
+      },
+      {
+        "id": "jenkins",
+        "name": "Jenkins",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "Jenkins Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/jenkins"
+        },
+        "assets": {
+          "logo": "assets/jenkins.svg"
+        }
+      },
+      {
+        "id": "terraform",
+        "name": "Terraform",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "Terraform Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/terraform"
+        },
+        "assets": {
+          "logo": "assets/terraform.svg"
+        }
+      }
+    ]
+  },
+  {
+    "resource": "cloud-providers",
+    "sources": [
+      {
+        "id": "aws-cloudwatch",
+        "name": "AWS CloudWatch",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "AWS CloudWatch Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/aws-cloudwatch"
+        },
+        "assets": {
+          "logo": "assets/aws-cloudwatch.svg"
+        }
+      },
+      {
+        "id": "aws-kinesis",
+        "name": "AWS Kinesis",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "AWS Kinesis Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/aws-kinesis"
+        },
+        "assets": {
+          "logo": "assets/aws-kinesis.svg"
+        }
+      },
+      {
+        "id": "azure-events-hubs",
+        "name": "Azure Events Hubs",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "Azure Events Hubs Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/azure-events-hubs"
+        },
+        "assets": {
+          "logo": "assets/azure-events-hubs.svg"
+        }
+      },
+      {
+        "id": "google-pub-sub",
+        "name": "Google Cloud Pub/Sub",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "Google Cloud Pub/Sub Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/google-pub-sub"
+        },
+        "assets": {
+          "logo": "assets/google-pub-sub.svg"
+        }
+      }
+    ]
+  },
+  {
+    "resource": "security",
+    "sources": [
+      {
+        "id": "falco",
+        "name": "Falco",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "Falco Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/falco"
+        },
+        "assets": {
+          "logo": "assets/falco.svg"
+        }
+      },
+      {
+        "id": "siem-export",
+        "name": "SIEM Export",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "SIEM Export Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/siem-export"
+        },
+        "assets": {
+          "logo": "assets/trivy.svg"
+        }
+      },
+      {
+        "id": "trivy",
+        "name": "Trivy",
+        "telemetry_types": [
+          "logs",
+          "metrics"
+        ],
+        "description": "Trivy Integration",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/trivy"
+        },
+        "assets": {
+          "logo": "assets/trivy.svg"
+        }
+      }
+    ]
+  },
+  {
+    "resource": "programming-languages",
+    "sources": [
+      {
+        "id": "go",
+        "name": "Go",
+        "telemetry_types": [
+          "logs"
+        ],
+        "description": "Go SDK",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/go"
+        },
+        "assets": {
+          "logo": "assets/go.svg"
+        }
+      },
+      {
+        "id": "java",
+        "name": "Java",
+        "telemetry_types": [
+          "logs"
+        ],
+        "description": "Java SDK",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/java"
+        },
+        "assets": {
+          "logo": "assets/java.svg"
+        }
+      },
+      {
+        "id": "javascript",
+        "name": "JavaScript",
+        "telemetry_types": [
+          "logs"
+        ],
+        "description": "JavaScript SDK",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/javascript"
+        },
+        "assets": {
+          "logo": "assets/js.svg"
+        }
+      },
+      {
+        "id": "python",
+        "name": "Python",
+        "telemetry_types": [
+          "logs"
+        ],
+        "description": "Python SDK",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/python"
+        },
+        "assets": {
+          "logo": "assets/python.svg"
+        }
+      },
+      {
+        "id": "ruby",
+        "name": "Ruby",
+        "telemetry_types": [
+          "logs"
+        ],
+        "description": "Ruby SDK",
+        "links": {
+          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/ruby"
+        },
+        "assets": {
+          "logo": "assets/ruby.svg"
         }
       }
     ]

@@ -1,0 +1,13 @@
+{
+  "id": "siem-export",
+  "name": "SIEM Export",
+  "resource": "security",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "SIEM Export Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/siem-export"
+  },
+  "assets": {
+    "logo": "assets/trivy.svg"
+  }
+}

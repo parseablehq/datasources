@@ -1,0 +1,13 @@
+{
+  "id": "prometheus",
+  "name": "Prometheus",
+  "resource": "telemetry-agents",
+  "telemetry_types": ["metrics"],
+  "description": "Prometheus Agent",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/prometheus"
+  },
+  "assets": {
+    "logo": "assets/prometheus.svg"
+  }
+}

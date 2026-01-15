@@ -1,0 +1,11 @@
+{
+  "id": "dspy",
+  "name": "DSPy",
+  "resource": "llm-ai-agents",
+  "telemetry_types": ["logs", "metrics", "traces"],
+  "description": "DSPy Agent",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/dspy/logs"
+  },
+  "assets": { "logo": "assets/dspy.png" }
+}

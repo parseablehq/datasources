@@ -1,0 +1,13 @@
+{
+  "id": "gitlab",
+  "name": "GitLab",
+  "resource": "ci-cd",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "GitLab Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/gitlab"
+  },
+  "assets": {
+    "logo": "assets/gitlab.svg"
+  }
+}

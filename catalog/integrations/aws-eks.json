@@ -1,0 +1,13 @@
+{
+  "id": "aws-eks",
+  "name": "AWS EKS",
+  "resource": "containers",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "AWS EKS Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/aws-eks"
+  },
+  "assets": {
+    "logo": "assets/aws-eks.svg"
+  }
+}

@@ -124,7 +124,7 @@ Use the following template when adding a new integration under
   "telemetry_types": ["logs"],
   "description": "Short description of the integration.",
   "links": {
-    "docs": "https://docs.parseable.io/ingest/example"
+    "docs": "https://parseable.com/docs/ingest/example"
   },
   "assets": {
     "logo": "assets/logos/example.svg"

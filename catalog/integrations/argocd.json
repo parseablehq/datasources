@@ -1,0 +1,13 @@
+{
+  "id": "argocd",
+  "name": "ArgoCD",
+  "resource": "ci-cd",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "ArgoCD Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/argocd"
+  },
+  "assets": {
+    "logo": "assets/argo-cd.svg"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "kafka",
+  "name": "Kafka",
+  "resource": "streaming",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "Kafka Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/messaging/kafka"
+  },
+  "assets": {
+    "logo": "assets/kafka.svg"
+  }
+}

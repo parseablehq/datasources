@@ -1,7 +1,7 @@
 {
   "id": "fluentd",
   "name": "Fluentd",
-  "resource": "observability-agents",
+  "resource": "telemetry-agents",
   "telemetry_types": ["logs"],
   "description": "Fluentd Agent",
   "links": {

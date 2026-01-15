@@ -1,0 +1,11 @@
+{
+  "id": "ebpf",
+  "name": "eBPF",
+  "resource": "ebpf",
+  "telemetry_types": ["logs", "metrics", "traces"],
+  "description": "eBPF Agent",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/ebpf/logs"
+  },
+  "assets": { "logo": "assets/ebpf.svg" }
+}

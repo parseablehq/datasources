@@ -1,0 +1,13 @@
+{
+  "id": "azure-aks",
+  "name": "Azure AKS",
+  "resource": "containers",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "Azure AKS Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/azure-aks"
+  },
+  "assets": {
+    "logo": "assets/azure-aks.svg"
+  }
+}

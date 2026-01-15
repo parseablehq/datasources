@@ -1,0 +1,13 @@
+{
+  "id": "azure-events-hubs",
+  "name": "Azure Events Hubs",
+  "resource": "cloud-providers",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "Azure Events Hubs Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/azure-events-hubs"
+  },
+  "assets": {
+    "logo": "assets/azure-events-hubs.svg"
+  }
+}

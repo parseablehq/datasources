@@ -1,0 +1,13 @@
+{
+  "id": "aws-kinesis",
+  "name": "AWS Kinesis",
+  "resource": "cloud-providers",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "AWS Kinesis Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/aws-kinesis"
+  },
+  "assets": {
+    "logo": "assets/aws-kinesis.svg"
+  }
+}

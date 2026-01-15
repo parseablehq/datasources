@@ -1,0 +1,13 @@
+{
+  "id": "nats",
+  "name": "NATS",
+  "resource": "streaming",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "NATS Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/nats"
+  },
+  "assets": {
+    "logo": "assets/nats.svg"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "gcp-gke",
+  "name": "Google GKE",
+  "resource": "containers",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "GCP GKE Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/gcp-gke"
+  },
+  "assets": {
+    "logo": "assets/gcp-gke.svg"
+  }
+}
