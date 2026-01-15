@@ -1,0 +1,11 @@
+{
+  "id": "anthropic",
+  "name": "Anthropic",
+  "resource": "llm-ai-agents",
+  "telemetry_types": ["logs", "metrics", "traces"],
+  "description": "Anthropic Agent",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/anthropic/logs"
+  },
+  "assets": { "logo": "assets/anthropic.svg" }
+}

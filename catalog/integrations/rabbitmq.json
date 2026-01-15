@@ -1,0 +1,13 @@
+{
+  "id": "rabbitmq",
+  "name": "RabbitMQ",
+  "resource": "streaming",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "RabbitMQ Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/rabbitmq"
+  },
+  "assets": {
+    "logo": "assets/rabbitmq.svg"
+  }
+}

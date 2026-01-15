@@ -1,0 +1,13 @@
+{
+  "id": "kubernetes",
+  "name": "Kubernetes",
+  "resource": "containers",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "Kubernetes Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/kubernetes"
+  },
+  "assets": {
+    "logo": "assets/kubernetes.svg"
+  }
+}

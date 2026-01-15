@@ -1,0 +1,11 @@
+{
+  "id": "autogen",
+  "name": "AutoGen",
+  "resource": "llm-ai-agents",
+  "telemetry_types": ["logs", "metrics", "traces"],
+  "description": "AutoGen Agent",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/autogen/logs"
+  },
+  "assets": { "logo": "assets/autogen.svg" }
+}

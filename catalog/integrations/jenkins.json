@@ -1,0 +1,13 @@
+{
+  "id": "jenkins",
+  "name": "Jenkins",
+  "resource": "ci-cd",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "Jenkins Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/jenkins"
+  },
+  "assets": {
+    "logo": "assets/jenkins.svg"
+  }
+}

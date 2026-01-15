@@ -1,0 +1,11 @@
+{
+  "id": "crew-ai",
+  "name": "CrewAI",
+  "resource": "llm-ai-agents",
+  "telemetry_types": ["logs", "metrics", "traces"],
+  "description": "CrewAI Agent",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/crew-ai/logs"
+  },
+  "assets": { "logo": "assets/crewai.svg" }
+}

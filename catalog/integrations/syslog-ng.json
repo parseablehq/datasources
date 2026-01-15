@@ -1,7 +1,7 @@
 {
   "id": "syslog-ng",
   "name": "Syslog-ng",
-  "resource": "observability-agents",
+  "resource": "telemetry-agents",
   "telemetry_types": ["logs"],
   "description": "Syslog-ng Agent",
   "links": {

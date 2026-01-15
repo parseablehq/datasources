@@ -1,7 +1,7 @@
 {
   "id": "apache-log4j-2",
   "name": "Apache Log4j 2",
-  "resource": "observability-agents",
+  "resource": "telemetry-agents",
   "telemetry_types": ["logs"],
   "description": "Apache Log4j 2 Agent",
   "links": {

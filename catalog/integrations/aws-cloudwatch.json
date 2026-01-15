@@ -1,0 +1,13 @@
+{
+  "id": "aws-cloudwatch",
+  "name": "AWS CloudWatch",
+  "resource": "cloud-providers",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "AWS CloudWatch Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/aws-cloudwatch"
+  },
+  "assets": {
+    "logo": "assets/aws-cloudwatch.svg"
+  }
+}

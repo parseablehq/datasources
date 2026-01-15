@@ -1,0 +1,13 @@
+{
+  "id": "trivy",
+  "name": "Trivy",
+  "resource": "security",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "Trivy Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/trivy"
+  },
+  "assets": {
+    "logo": "assets/trivy.svg"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "llama-index",
+  "name": "LlamaIndex",
+  "resource": "llm-ai-agents",
+  "telemetry_types": ["logs", "metrics", "traces"],
+  "description": "LlamaIndex Agent",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/llama-index/logs"
+  },
+  "assets": { "logo": "assets/llama-index.svg" }
+}

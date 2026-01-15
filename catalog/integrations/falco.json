@@ -1,0 +1,13 @@
+{
+  "id": "falco",
+  "name": "Falco",
+  "resource": "security",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "Falco Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/falco"
+  },
+  "assets": {
+    "logo": "assets/falco.svg"
+  }
+}

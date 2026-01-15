@@ -1,7 +1,7 @@
 {
   "id": "vector",
   "name": "Vector",
-  "resource": "observability-agents",
+  "resource": "telemetry-agents",
   "telemetry_types": ["logs"],
   "description": "Vector Agent",
   "links": {

@@ -1,0 +1,13 @@
+{
+  "id": "docker",
+  "name": "Docker",
+  "resource": "containers",
+  "telemetry_types": ["logs", "metrics"],
+  "description": "Docker Integration",
+  "links": {
+    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/docker"
+  },
+  "assets": {
+    "logo": "assets/docker.svg"
+  }
+}
