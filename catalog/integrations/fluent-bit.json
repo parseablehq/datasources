@@ -3,9 +3,9 @@
   "name": "Fluent Bit",
   "resource": "telemetry-agents",
   "telemetry_types": ["logs", "metrics", "traces"],
-  "description": "Fluent Bit Agent",
+  "description": "Lightweight and fast log processor and forwarder that supports logs, metrics, and traces collection with OpenTelemetry support",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/fluent-bit"
+    "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/fluent-bit"
   },
   "assets": {
     "logo": "assets/fluent-bit.svg"

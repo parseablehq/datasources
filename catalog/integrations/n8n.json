@@ -2,10 +2,10 @@
   "id": "n8n",
   "name": "N8n",
   "resource": "llm-ai-agents",
-  "telemetry_types": ["logs", "metrics", "traces"],
-  "description": "N8n Agent",
+  "telemetry_types": ["logs"],
+  "description": "Send n8n workflow execution logs to Parseable",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/n8n/logs"
+    "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/n8n"
   },
   "assets": { "logo": "assets/n8n.svg" }
 }

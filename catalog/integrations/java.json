@@ -3,9 +3,9 @@
   "name": "Java",
   "resource": "programming-languages",
   "telemetry_types": ["logs"],
-  "description": "Java SDK",
+  "description": "Send logs from Java applications using OkHttp or other HTTP clients",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/java"
+    "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/java"
   },
   "assets": {
     "logo": "assets/java.svg"

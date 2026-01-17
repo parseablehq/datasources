@@ -3,9 +3,9 @@
   "name": "Go",
   "resource": "programming-languages",
   "telemetry_types": ["logs"],
-  "description": "Go SDK",
+  "description": "Send logs from Go applications using HTTP requests",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/go"
+    "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/go"
   },
   "assets": {
     "logo": "assets/go.svg"

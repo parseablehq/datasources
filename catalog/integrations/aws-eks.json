@@ -2,10 +2,10 @@
   "id": "aws-eks",
   "name": "AWS EKS",
   "resource": "containers",
-  "telemetry_types": ["logs", "metrics"],
-  "description": "AWS EKS Integration",
+  "telemetry_types": ["logs"],
+  "description": "Collect container logs from Amazon EKS clusters using Fluent Bit DaemonSet",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/aws-eks"
+    "docs": "https://www.parseable.com/docs/ingest-data/containers/amazon-eks"
   },
   "assets": {
     "logo": "assets/aws-eks.svg"

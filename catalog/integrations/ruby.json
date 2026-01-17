@@ -3,9 +3,9 @@
   "name": "Ruby",
   "resource": "programming-languages",
   "telemetry_types": ["logs"],
-  "description": "Ruby SDK",
+  "description": "Send logs from Ruby applications with Rails, Sinatra, and other framework support",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/ruby"
+    "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/ruby"
   },
   "assets": {
     "logo": "assets/ruby.svg"

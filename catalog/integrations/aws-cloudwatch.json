@@ -2,10 +2,10 @@
   "id": "aws-cloudwatch",
   "name": "AWS CloudWatch",
   "resource": "cloud-providers",
-  "telemetry_types": ["logs", "metrics"],
-  "description": "AWS CloudWatch Integration",
+  "telemetry_types": ["logs"],
+  "description": "Stream CloudWatch logs to Parseable using Lambda subscription filters",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/aws-cloudwatch"
+    "docs": "https://www.parseable.com/docs/ingest-data/cloud/aws-cloudwatch"
   },
   "assets": {
     "logo": "assets/aws-cloudwatch.svg"

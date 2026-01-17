@@ -2,10 +2,10 @@
   "id": "openai",
   "name": "OpenAI",
   "resource": "llm-ai-agents",
-  "telemetry_types": ["logs", "metrics", "traces"],
-  "description": "OpenAI Agent",
+  "telemetry_types": ["logs"],
+  "description": "Log OpenAI API calls, responses, and token usage for LLM observability",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/openai/logs"
+    "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/openai"
   },
   "assets": { "logo": "assets/openai.svg" }
 }

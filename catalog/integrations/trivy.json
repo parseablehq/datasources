@@ -2,10 +2,10 @@
   "id": "trivy",
   "name": "Trivy",
   "resource": "security",
-  "telemetry_types": ["logs", "metrics"],
-  "description": "Trivy Integration",
+  "telemetry_types": ["logs"],
+  "description": "Send Trivy vulnerability scan results to Parseable for security monitoring",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/trivy"
+    "docs": "https://www.parseable.com/docs/ingest-data/security/trivy"
   },
   "assets": {
     "logo": "assets/trivy.svg"

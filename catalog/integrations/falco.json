@@ -2,10 +2,10 @@
   "id": "falco",
   "name": "Falco",
   "resource": "security",
-  "telemetry_types": ["logs", "metrics"],
-  "description": "Falco Integration",
+  "telemetry_types": ["logs"],
+  "description": "Send Falco runtime security events to Parseable for threat detection",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/falco"
+    "docs": "https://www.parseable.com/docs/ingest-data/security/falco"
   },
   "assets": {
     "logo": "assets/falco.svg"

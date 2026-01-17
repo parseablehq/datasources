@@ -2,10 +2,10 @@
   "id": "nats",
   "name": "NATS",
   "resource": "streaming",
-  "telemetry_types": ["logs", "metrics"],
-  "description": "NATS Integration",
+  "telemetry_types": ["logs"],
+  "description": "Ingest logs from NATS messaging system",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/nats"
+    "docs": "https://www.parseable.com/docs/ingest-data/streaming/nats"
   },
   "assets": {
     "logo": "assets/nats.svg"

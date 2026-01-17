@@ -3,9 +3,9 @@
   "name": "Python",
   "resource": "programming-languages",
   "telemetry_types": ["logs"],
-  "description": "Python SDK",
+  "description": "Send logs from Python applications using HTTP requests or logging libraries",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/python"
+    "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/python"
   },
   "assets": {
     "logo": "assets/python.svg"

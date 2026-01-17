@@ -2,10 +2,10 @@
   "id": "gitlab",
   "name": "GitLab",
   "resource": "ci-cd",
-  "telemetry_types": ["logs", "metrics"],
-  "description": "GitLab Integration",
+  "telemetry_types": ["logs"],
+  "description": "Send GitLab CI/CD pipeline logs to Parseable for observability",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/gitlab"
+    "docs": "https://www.parseable.com/docs/ingest-data/cicd/gitlab"
   },
   "assets": {
     "logo": "assets/gitlab.svg"

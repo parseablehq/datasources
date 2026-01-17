@@ -2,10 +2,10 @@
   "id": "dspy",
   "name": "DSPy",
   "resource": "llm-ai-agents",
-  "telemetry_types": ["logs", "metrics", "traces"],
-  "description": "DSPy Agent",
+  "telemetry_types": ["logs", "traces"],
+  "description": "Trace DSPy programs, modules, and optimization runs",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/dspy/logs"
+    "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/dspy"
   },
   "assets": { "logo": "assets/dspy.png" }
 }

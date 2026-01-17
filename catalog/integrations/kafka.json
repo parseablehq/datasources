@@ -2,10 +2,10 @@
   "id": "kafka",
   "name": "Kafka",
   "resource": "streaming",
-  "telemetry_types": ["logs", "metrics"],
-  "description": "Kafka Integration",
+  "telemetry_types": ["logs"],
+  "description": "Ingest logs from Apache Kafka topics using the Parseable Kafka Connector",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/messaging/kafka"
+    "docs": "https://www.parseable.com/docs/ingest-data/streaming/kafka"
   },
   "assets": {
     "logo": "assets/kafka.svg"
