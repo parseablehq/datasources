@@ -5,7 +5,7 @@
   "telemetry_types": ["logs"],
   "description": "Collect container logs from Azure Kubernetes Service clusters using Fluent Bit DaemonSet",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/azure-aks"
+    "docs": "https://www.parseable.com/docs/ingest-data/containers/azure-aks"
   },
   "assets": {
     "logo": "assets/azure-aks.svg"

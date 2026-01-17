@@ -5,7 +5,7 @@
   "telemetry_types": ["logs"],
   "description": "Export logs from Parseable to SIEM platforms like Splunk and Sentinel",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/siem-export"
+    "docs": "https://www.parseable.com/docs/ingest-data/security/siem-export"
   },
   "assets": {
     "logo": "assets/trivy.svg"

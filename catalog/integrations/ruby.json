@@ -5,7 +5,7 @@
   "telemetry_types": ["logs"],
   "description": "Send logs from Ruby applications with Rails, Sinatra, and other framework support",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/ruby"
+    "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/ruby"
   },
   "assets": {
     "logo": "assets/ruby.svg"

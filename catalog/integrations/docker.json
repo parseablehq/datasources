@@ -5,7 +5,7 @@
   "telemetry_types": ["logs"],
   "description": "Collect container logs from Docker using Fluent Bit or native Docker logging drivers",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/docker"
+    "docs": "https://www.parseable.com/docs/ingest-data/containers/docker"
   },
   "assets": {
     "logo": "assets/docker.svg"

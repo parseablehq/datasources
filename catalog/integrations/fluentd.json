@@ -5,7 +5,7 @@
   "telemetry_types": ["logs"],
   "description": "Open-source data collector for unified logging layer with flexible plugin architecture",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/fluentd"
+    "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/fluentd"
   },
   "assets": {
     "logo": "assets/fluentD.svg"

@@ -5,7 +5,7 @@
   "telemetry_types": ["logs"],
   "description": "Collect container logs from Google Kubernetes Engine clusters using Fluent Bit DaemonSet",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/gcp-gke"
+    "docs": "https://www.parseable.com/docs/ingest-data/containers/google-gke"
   },
   "assets": {
     "logo": "assets/gcp-gke.svg"

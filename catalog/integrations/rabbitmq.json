@@ -5,7 +5,7 @@
   "telemetry_types": ["logs"],
   "description": "Ingest logs from RabbitMQ message queues",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/rabbitmq"
+    "docs": "https://www.parseable.com/docs/ingest-data/streaming/rabbitmq"
   },
   "assets": {
     "logo": "assets/rabbitmq.svg"

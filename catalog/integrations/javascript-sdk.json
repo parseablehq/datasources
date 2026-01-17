@@ -5,7 +5,7 @@
   "telemetry_types": ["logs"],
   "description": "Send logs from JavaScript/Node.js apps using Winston, Bunyan plugins or HTTP",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/javascript"
+    "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/javascript"
   },
   "assets": {
     "logo": "assets/js.svg"

@@ -5,7 +5,7 @@
   "telemetry_types": ["logs"],
   "description": "Send Jenkins build logs to Parseable for CI/CD observability",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/jenkins"
+    "docs": "https://www.parseable.com/docs/ingest-data/cicd/jenkins"
   },
   "assets": {
     "logo": "assets/jenkins.svg"

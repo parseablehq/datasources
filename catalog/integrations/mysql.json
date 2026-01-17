@@ -5,7 +5,7 @@
   "telemetry_types": ["metrics"],
   "description": "Monitor MySQL and MariaDB database metrics using OpenTelemetry Collector",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/databases/mysql"
+    "docs": "https://www.parseable.com/docs/ingest-data/databases/mysql"
   },
   "assets": {
     "logo": "assets/MySQL.svg"

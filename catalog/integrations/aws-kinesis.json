@@ -5,7 +5,7 @@
   "telemetry_types": ["logs"],
   "description": "Stream logs from AWS Kinesis Data Streams to Parseable",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/aws-kinesis"
+    "docs": "https://www.parseable.com/docs/ingest-data/cloud/aws-kinesis"
   },
   "assets": {
     "logo": "assets/aws-kinesis.svg"

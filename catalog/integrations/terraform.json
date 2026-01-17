@@ -5,7 +5,7 @@
   "telemetry_types": ["logs"],
   "description": "Send Terraform execution logs and state changes to Parseable",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/terraform"
+    "docs": "https://www.parseable.com/docs/ingest-data/cicd/terraform"
   },
   "assets": {
     "logo": "assets/terraform.svg"

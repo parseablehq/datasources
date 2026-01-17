@@ -5,7 +5,7 @@
   "telemetry_types": ["metrics"],
   "description": "Monitor Redis cache metrics using OpenTelemetry Collector",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/databases/redis"
+    "docs": "https://www.parseable.com/docs/ingest-data/databases/redis"
   },
   "assets": {
     "logo": "assets/redis.svg"
