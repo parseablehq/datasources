@@ -10,9 +10,9 @@
           "metrics",
           "traces"
         ],
-        "description": "OpenTelemetry Agent",
+        "description": "Ingest logs, metrics, and traces via OpenTelemetry Protocol (OTLP)",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/otel/logs"
+          "docs": "https://www.parseable.com/docs/ingest-data/otel"
         },
         "assets": {
           "logo": "assets/otel.svg"
@@ -48,13 +48,11 @@
         "id": "anthropic",
         "name": "Anthropic",
         "telemetry_types": [
-          "logs",
-          "metrics",
-          "traces"
+          "logs"
         ],
-        "description": "Anthropic Agent",
+        "description": "Log Anthropic Claude API calls and token usage for LLM observability",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/anthropic/logs"
+          "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/anthropic"
         },
         "assets": {
           "logo": "assets/anthropic.svg"
@@ -65,12 +63,11 @@
         "name": "AutoGen",
         "telemetry_types": [
           "logs",
-          "metrics",
           "traces"
         ],
-        "description": "AutoGen Agent",
+        "description": "Trace Microsoft AutoGen multi-agent conversations and workflows",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/autogen/logs"
+          "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/autogen"
         },
         "assets": {
           "logo": "assets/autogen.svg"
@@ -81,12 +78,11 @@
         "name": "CrewAI",
         "telemetry_types": [
           "logs",
-          "metrics",
           "traces"
         ],
-        "description": "CrewAI Agent",
+        "description": "Trace CrewAI agent crews, tasks, and tool executions",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/crew-ai/logs"
+          "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/crew-ai"
         },
         "assets": {
           "logo": "assets/crewai.svg"
@@ -97,12 +93,11 @@
         "name": "DSPy",
         "telemetry_types": [
           "logs",
-          "metrics",
           "traces"
         ],
-        "description": "DSPy Agent",
+        "description": "Trace DSPy programs, modules, and optimization runs",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/dspy/logs"
+          "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/dspy"
         },
         "assets": {
           "logo": "assets/dspy.png"
@@ -113,12 +108,11 @@
         "name": "LangChain",
         "telemetry_types": [
           "logs",
-          "metrics",
           "traces"
         ],
-        "description": "LangChain Agent",
+        "description": "Trace LangChain chains, agents, and tool calls for LLM observability",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/langchain/logs"
+          "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/langchain"
         },
         "assets": {
           "logo": "assets/langchain.svg"
@@ -129,12 +123,11 @@
         "name": "LlamaIndex",
         "telemetry_types": [
           "logs",
-          "metrics",
           "traces"
         ],
-        "description": "LlamaIndex Agent",
+        "description": "Trace LlamaIndex queries, retrievers, and response synthesis for RAG observability",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/llama-index/logs"
+          "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/llama-index"
         },
         "assets": {
           "logo": "assets/llama-index.svg"
@@ -144,13 +137,11 @@
         "id": "n8n",
         "name": "N8n",
         "telemetry_types": [
-          "logs",
-          "metrics",
-          "traces"
+          "logs"
         ],
-        "description": "N8n Agent",
+        "description": "Send n8n workflow execution logs to Parseable",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/n8n/logs"
+          "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/n8n"
         },
         "assets": {
           "logo": "assets/n8n.svg"
@@ -160,13 +151,11 @@
         "id": "openai",
         "name": "OpenAI",
         "telemetry_types": [
-          "logs",
-          "metrics",
-          "traces"
+          "logs"
         ],
-        "description": "OpenAI Agent",
+        "description": "Log OpenAI API calls, responses, and token usage for LLM observability",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/openai/logs"
+          "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/openai"
         },
         "assets": {
           "logo": "assets/openai.svg"
@@ -197,9 +186,9 @@
         "telemetry_types": [
           "logs"
         ],
-        "description": "Filebeat Agent",
+        "description": "Lightweight log shipper for forwarding and centralizing log data",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/filebeat"
+          "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/filebeat"
         },
         "assets": {
           "logo": "assets/filebeat.svg"
@@ -213,9 +202,9 @@
           "metrics",
           "traces"
         ],
-        "description": "Fluent Bit Agent",
+        "description": "Lightweight and fast log processor and forwarder that supports logs, metrics, and traces collection with OpenTelemetry support",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/fluent-bit"
+          "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/fluent-bit"
         },
         "assets": {
           "logo": "assets/fluent-bit.svg"
@@ -227,9 +216,9 @@
         "telemetry_types": [
           "logs"
         ],
-        "description": "Fluentd Agent",
+        "description": "Open-source data collector for unified logging layer with flexible plugin architecture",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/fluentd"
+          "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/fluentd"
         },
         "assets": {
           "logo": "assets/fluentD.svg"
@@ -241,9 +230,9 @@
         "telemetry_types": [
           "logs"
         ],
-        "description": "Logstash Agent",
+        "description": "Server-side data processing pipeline that ingests, transforms, and sends logs to Parseable",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/logstash"
+          "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/logstash"
         },
         "assets": {
           "logo": "assets/logstash.svg"
@@ -269,9 +258,9 @@
         "telemetry_types": [
           "logs"
         ],
-        "description": "Promtail Agent",
+        "description": "Log collection agent that ships logs to Parseable with label-based metadata enrichment",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/promtail"
+          "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/promtail"
         },
         "assets": {
           "logo": "assets/loki.svg"
@@ -297,9 +286,9 @@
         "telemetry_types": [
           "logs"
         ],
-        "description": "Vector Agent",
+        "description": "High-performance observability data pipeline for logs collection and transformation",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/vector"
+          "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/vector"
         },
         "assets": {
           "logo": "assets/vector.svg"
@@ -314,12 +303,11 @@
         "id": "elasticsearch",
         "name": "Elasticsearch",
         "telemetry_types": [
-          "logs",
-          "metrics"
+          "logs"
         ],
-        "description": "Elasticsearch Integration",
+        "description": "Migrate log data from Elasticsearch to Parseable",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/databases/elasticsearch"
+          "docs": "https://www.parseable.com/docs/ingest-data/databases/elasticsearch"
         },
         "assets": {
           "logo": "assets/elastic.svg"
@@ -329,12 +317,11 @@
         "id": "mongodb",
         "name": "MongoDB",
         "telemetry_types": [
-          "logs",
           "metrics"
         ],
-        "description": "MongoDB Integration",
+        "description": "Monitor MongoDB database metrics using OpenTelemetry Collector",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/databases/mongodb"
+          "docs": "https://www.parseable.com/docs/ingest-data/databases/mongodb"
         },
         "assets": {
           "logo": "assets/MongoDB.svg"
@@ -344,12 +331,11 @@
         "id": "mysql",
         "name": "MySQL",
         "telemetry_types": [
-          "logs",
           "metrics"
         ],
-        "description": "MySQL Integration",
+        "description": "Monitor MySQL and MariaDB database metrics using OpenTelemetry Collector",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/databases/mysql"
+          "docs": "https://www.parseable.com/docs/ingest-data/databases/mysql"
         },
         "assets": {
           "logo": "assets/MySQL.svg"
@@ -359,12 +345,11 @@
         "id": "postgresql",
         "name": "PostgreSQL",
         "telemetry_types": [
-          "logs",
           "metrics"
         ],
-        "description": "PostgreSQL Integration",
+        "description": "Monitor PostgreSQL database metrics using OpenTelemetry Collector",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/databases/postgresql"
+          "docs": "https://www.parseable.com/docs/ingest-data/databases/postgresql"
         },
         "assets": {
           "logo": "assets/PostgresSQL.svg"
@@ -374,12 +359,11 @@
         "id": "redis",
         "name": "Redis",
         "telemetry_types": [
-          "logs",
           "metrics"
         ],
-        "description": "Redis Integration",
+        "description": "Monitor Redis cache metrics using OpenTelemetry Collector",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/databases/redis"
+          "docs": "https://www.parseable.com/docs/ingest-data/databases/redis"
         },
         "assets": {
           "logo": "assets/redis.svg"
@@ -394,12 +378,11 @@
         "id": "aws-ecs",
         "name": "AWS ECS",
         "telemetry_types": [
-          "logs",
-          "metrics"
+          "logs"
         ],
-        "description": "AWS ECS Integration",
+        "description": "Collect container logs from Amazon ECS tasks using Fluent Bit sidecar or FireLens",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/aws-ecs"
+          "docs": "https://www.parseable.com/docs/ingest-data/containers/amazon-ecs"
         },
         "assets": {
           "logo": "assets/aws-ecs.svg"
@@ -409,12 +392,11 @@
         "id": "aws-eks",
         "name": "AWS EKS",
         "telemetry_types": [
-          "logs",
-          "metrics"
+          "logs"
         ],
-        "description": "AWS EKS Integration",
+        "description": "Collect container logs from Amazon EKS clusters using Fluent Bit DaemonSet",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/aws-eks"
+          "docs": "https://www.parseable.com/docs/ingest-data/containers/amazon-eks"
         },
         "assets": {
           "logo": "assets/aws-eks.svg"
@@ -424,12 +406,11 @@
         "id": "azure-aks",
         "name": "Azure AKS",
         "telemetry_types": [
-          "logs",
-          "metrics"
+          "logs"
         ],
-        "description": "Azure AKS Integration",
+        "description": "Collect container logs from Azure Kubernetes Service clusters using Fluent Bit DaemonSet",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/azure-aks"
+          "docs": "https://www.parseable.com/docs/ingest-data/containers/azure-aks"
         },
         "assets": {
           "logo": "assets/azure-aks.svg"
@@ -439,12 +420,11 @@
         "id": "docker",
         "name": "Docker",
         "telemetry_types": [
-          "logs",
-          "metrics"
+          "logs"
         ],
-        "description": "Docker Integration",
+        "description": "Collect container logs from Docker using Fluent Bit or native Docker logging drivers",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/docker"
+          "docs": "https://www.parseable.com/docs/ingest-data/containers/docker"
         },
         "assets": {
           "logo": "assets/docker.svg"
@@ -454,12 +434,11 @@
         "id": "gcp-gke",
         "name": "Google GKE",
         "telemetry_types": [
-          "logs",
-          "metrics"
+          "logs"
         ],
-        "description": "GCP GKE Integration",
+        "description": "Collect container logs from Google Kubernetes Engine clusters using Fluent Bit DaemonSet",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/gcp-gke"
+          "docs": "https://www.parseable.com/docs/ingest-data/containers/google-gke"
         },
         "assets": {
           "logo": "assets/gcp-gke.svg"
@@ -469,12 +448,11 @@
         "id": "kubernetes",
         "name": "Kubernetes",
         "telemetry_types": [
-          "logs",
-          "metrics"
+          "logs"
         ],
-        "description": "Kubernetes Integration",
+        "description": "Collect container logs from Kubernetes clusters using Fluent Bit DaemonSet",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/kubernetes"
+          "docs": "https://www.parseable.com/docs/ingest-data/containers/kubernetes"
         },
         "assets": {
           "logo": "assets/kubernetes.svg"
@@ -489,12 +467,11 @@
         "id": "kafka",
         "name": "Kafka",
         "telemetry_types": [
-          "logs",
-          "metrics"
+          "logs"
         ],
-        "description": "Kafka Integration",
+        "description": "Ingest logs from Apache Kafka topics using the Parseable Kafka Connector",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/messaging/kafka"
+          "docs": "https://www.parseable.com/docs/ingest-data/streaming/kafka"
         },
         "assets": {
           "logo": "assets/kafka.svg"
@@ -504,12 +481,11 @@
         "id": "nats",
         "name": "NATS",
         "telemetry_types": [
-          "logs",
-          "metrics"
+          "logs"
         ],
-        "description": "NATS Integration",
+        "description": "Ingest logs from NATS messaging system",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/nats"
+          "docs": "https://www.parseable.com/docs/ingest-data/streaming/nats"
         },
         "assets": {
           "logo": "assets/nats.svg"
@@ -519,12 +495,11 @@
         "id": "rabbitmq",
         "name": "RabbitMQ",
         "telemetry_types": [
-          "logs",
-          "metrics"
+          "logs"
         ],
-        "description": "RabbitMQ Integration",
+        "description": "Ingest logs from RabbitMQ message queues",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/rabbitmq"
+          "docs": "https://www.parseable.com/docs/ingest-data/streaming/rabbitmq"
         },
         "assets": {
           "logo": "assets/rabbitmq.svg"
@@ -534,12 +509,11 @@
         "id": "redpanda",
         "name": "Redpanda",
         "telemetry_types": [
-          "logs",
-          "metrics"
+          "logs"
         ],
-        "description": "Redpanda Integration",
+        "description": "Ingest logs from Redpanda streams using the Kafka-compatible connector",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/redpanda"
+          "docs": "https://www.parseable.com/docs/ingest-data/streaming/redpanda"
         },
         "assets": {
           "logo": "assets/redpanda.svg"
@@ -554,12 +528,11 @@
         "id": "argocd",
         "name": "ArgoCD",
         "telemetry_types": [
-          "logs",
-          "metrics"
+          "logs"
         ],
-        "description": "ArgoCD Integration",
+        "description": "Send ArgoCD GitOps events and application logs to Parseable",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/argocd"
+          "docs": "https://www.parseable.com/docs/ingest-data/cicd/argocd"
         },
         "assets": {
           "logo": "assets/argo-cd.svg"
@@ -569,12 +542,11 @@
         "id": "circle-ci",
         "name": "CircleCI",
         "telemetry_types": [
-          "logs",
-          "metrics"
+          "logs"
         ],
-        "description": "CircleCI Integration",
+        "description": "Send CircleCI pipeline logs to Parseable for CI/CD observability",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/circle-ci"
+          "docs": "https://www.parseable.com/docs/ingest-data/cicd/circle-ci"
         },
         "assets": {
           "logo": "assets/circle-ci.svg"
@@ -584,12 +556,11 @@
         "id": "github-actions",
         "name": "GitHub Actions",
         "telemetry_types": [
-          "logs",
-          "metrics"
+          "logs"
         ],
-        "description": "GitHub Actions Integration",
+        "description": "Send GitHub Actions workflow logs to Parseable for CI/CD observability",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/github-actions"
+          "docs": "https://www.parseable.com/docs/ingest-data/cicd/github-actions"
         },
         "assets": {
           "logo": "assets/github-actions.svg"
@@ -599,12 +570,11 @@
         "id": "gitlab",
         "name": "GitLab",
         "telemetry_types": [
-          "logs",
-          "metrics"
+          "logs"
         ],
-        "description": "GitLab Integration",
+        "description": "Send GitLab CI/CD pipeline logs to Parseable for observability",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/gitlab"
+          "docs": "https://www.parseable.com/docs/ingest-data/cicd/gitlab"
         },
         "assets": {
           "logo": "assets/gitlab.svg"
@@ -614,12 +584,11 @@
         "id": "jenkins",
         "name": "Jenkins",
         "telemetry_types": [
-          "logs",
-          "metrics"
+          "logs"
         ],
-        "description": "Jenkins Integration",
+        "description": "Send Jenkins build logs to Parseable for CI/CD observability",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/jenkins"
+          "docs": "https://www.parseable.com/docs/ingest-data/cicd/jenkins"
         },
         "assets": {
           "logo": "assets/jenkins.svg"
@@ -629,12 +598,11 @@
         "id": "terraform",
         "name": "Terraform",
         "telemetry_types": [
-          "logs",
-          "metrics"
+          "logs"
         ],
-        "description": "Terraform Integration",
+        "description": "Send Terraform execution logs and state changes to Parseable",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/terraform"
+          "docs": "https://www.parseable.com/docs/ingest-data/cicd/terraform"
         },
         "assets": {
           "logo": "assets/terraform.svg"
@@ -649,12 +617,11 @@
         "id": "aws-cloudwatch",
         "name": "AWS CloudWatch",
         "telemetry_types": [
-          "logs",
-          "metrics"
+          "logs"
         ],
-        "description": "AWS CloudWatch Integration",
+        "description": "Stream CloudWatch logs to Parseable using Lambda subscription filters",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/aws-cloudwatch"
+          "docs": "https://www.parseable.com/docs/ingest-data/cloud/aws-cloudwatch"
         },
         "assets": {
           "logo": "assets/aws-cloudwatch.svg"
@@ -664,12 +631,11 @@
         "id": "aws-kinesis",
         "name": "AWS Kinesis",
         "telemetry_types": [
-          "logs",
-          "metrics"
+          "logs"
         ],
-        "description": "AWS Kinesis Integration",
+        "description": "Stream logs from AWS Kinesis Data Streams to Parseable",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/aws-kinesis"
+          "docs": "https://www.parseable.com/docs/ingest-data/cloud/aws-kinesis"
         },
         "assets": {
           "logo": "assets/aws-kinesis.svg"
@@ -679,12 +645,11 @@
         "id": "azure-events-hubs",
         "name": "Azure Events Hubs",
         "telemetry_types": [
-          "logs",
-          "metrics"
+          "logs"
         ],
-        "description": "Azure Events Hubs Integration",
+        "description": "Stream logs from Azure Event Hubs to Parseable using Azure Functions",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/azure-events-hubs"
+          "docs": "https://www.parseable.com/docs/ingest-data/cloud/azure-event-hubs"
         },
         "assets": {
           "logo": "assets/azure-events-hubs.svg"
@@ -694,12 +659,11 @@
         "id": "google-pub-sub",
         "name": "Google Cloud Pub/Sub",
         "telemetry_types": [
-          "logs",
-          "metrics"
+          "logs"
         ],
-        "description": "Google Cloud Pub/Sub Integration",
+        "description": "Stream logs from Google Cloud Pub/Sub to Parseable using Cloud Functions",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/google-pub-sub"
+          "docs": "https://www.parseable.com/docs/ingest-data/cloud/gcp-pubsub"
         },
         "assets": {
           "logo": "assets/google-pub-sub.svg"
@@ -714,12 +678,11 @@
         "id": "falco",
         "name": "Falco",
         "telemetry_types": [
-          "logs",
-          "metrics"
+          "logs"
         ],
-        "description": "Falco Integration",
+        "description": "Send Falco runtime security events to Parseable for threat detection",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/falco"
+          "docs": "https://www.parseable.com/docs/ingest-data/security/falco"
         },
         "assets": {
           "logo": "assets/falco.svg"
@@ -729,12 +692,11 @@
         "id": "siem-export",
         "name": "SIEM Export",
         "telemetry_types": [
-          "logs",
-          "metrics"
+          "logs"
         ],
-        "description": "SIEM Export Integration",
+        "description": "Export logs from Parseable to SIEM platforms like Splunk and Sentinel",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/siem-export"
+          "docs": "https://www.parseable.com/docs/ingest-data/security/siem-export"
         },
         "assets": {
           "logo": "assets/trivy.svg"
@@ -744,12 +706,11 @@
         "id": "trivy",
         "name": "Trivy",
         "telemetry_types": [
-          "logs",
-          "metrics"
+          "logs"
         ],
-        "description": "Trivy Integration",
+        "description": "Send Trivy vulnerability scan results to Parseable for security monitoring",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/trivy"
+          "docs": "https://www.parseable.com/docs/ingest-data/security/trivy"
         },
         "assets": {
           "logo": "assets/trivy.svg"
@@ -766,9 +727,9 @@
         "telemetry_types": [
           "logs"
         ],
-        "description": "Go SDK",
+        "description": "Send logs from Go applications using HTTP requests",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/go"
+          "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/go"
         },
         "assets": {
           "logo": "assets/go.svg"
@@ -780,9 +741,9 @@
         "telemetry_types": [
           "logs"
         ],
-        "description": "Java SDK",
+        "description": "Send logs from Java applications using OkHttp or other HTTP clients",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/java"
+          "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/java"
         },
         "assets": {
           "logo": "assets/java.svg"
@@ -794,9 +755,9 @@
         "telemetry_types": [
           "logs"
         ],
-        "description": "JavaScript SDK",
+        "description": "Send logs from JavaScript/Node.js apps using Winston, Bunyan plugins or HTTP",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/javascript"
+          "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/javascript"
         },
         "assets": {
           "logo": "assets/js.svg"
@@ -808,9 +769,9 @@
         "telemetry_types": [
           "logs"
         ],
-        "description": "Python SDK",
+        "description": "Send logs from Python applications using HTTP requests or logging libraries",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/python"
+          "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/python"
         },
         "assets": {
           "logo": "assets/python.svg"
@@ -822,9 +783,9 @@
         "telemetry_types": [
           "logs"
         ],
-        "description": "Ruby SDK",
+        "description": "Send logs from Ruby applications with Rails, Sinatra, and other framework support",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/ruby"
+          "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/ruby"
         },
         "assets": {
           "logo": "assets/ruby.svg"

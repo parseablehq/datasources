@@ -10,11 +10,15 @@
     ],
     "tokens": [
       "otel",
-      "opentelemetry",
-      "agent",
+      "ingest",
       "logs",
       "metrics",
-      "traces"
+      "and",
+      "traces",
+      "via",
+      "opentelemetry",
+      "protocol",
+      "otlp"
     ]
   },
   {
@@ -39,19 +43,24 @@
     "name": "Anthropic",
     "resource": "llm-ai-agents",
     "telemetry_types": [
-      "logs",
-      "metrics",
-      "traces"
+      "logs"
     ],
     "tokens": [
       "anthropic",
-      "agent",
+      "log",
+      "claude",
+      "api",
+      "calls",
+      "and",
+      "token",
+      "usage",
+      "for",
+      "llm",
+      "observability",
       "llms",
       "ai",
       "agents",
-      "logs",
-      "metrics",
-      "traces"
+      "logs"
     ]
   },
   {
@@ -60,17 +69,21 @@
     "resource": "llm-ai-agents",
     "telemetry_types": [
       "logs",
-      "metrics",
       "traces"
     ],
     "tokens": [
       "autogen",
+      "trace",
+      "microsoft",
+      "multi",
       "agent",
+      "conversations",
+      "and",
+      "workflows",
       "llms",
       "ai",
       "agents",
       "logs",
-      "metrics",
       "traces"
     ]
   },
@@ -80,17 +93,21 @@
     "resource": "llm-ai-agents",
     "telemetry_types": [
       "logs",
-      "metrics",
       "traces"
     ],
     "tokens": [
       "crewai",
+      "trace",
       "agent",
+      "crews",
+      "tasks",
+      "and",
+      "tool",
+      "executions",
       "llms",
       "ai",
       "agents",
       "logs",
-      "metrics",
       "traces"
     ]
   },
@@ -100,17 +117,20 @@
     "resource": "llm-ai-agents",
     "telemetry_types": [
       "logs",
-      "metrics",
       "traces"
     ],
     "tokens": [
       "dspy",
-      "agent",
+      "trace",
+      "programs",
+      "modules",
+      "and",
+      "optimization",
+      "runs",
       "llms",
       "ai",
       "agents",
       "logs",
-      "metrics",
       "traces"
     ]
   },
@@ -120,17 +140,22 @@
     "resource": "llm-ai-agents",
     "telemetry_types": [
       "logs",
-      "metrics",
       "traces"
     ],
     "tokens": [
       "langchain",
-      "agent",
+      "trace",
+      "chains",
+      "agents",
+      "and",
+      "tool",
+      "calls",
+      "for",
+      "llm",
+      "observability",
       "llms",
       "ai",
-      "agents",
       "logs",
-      "metrics",
       "traces"
     ]
   },
@@ -140,17 +165,23 @@
     "resource": "llm-ai-agents",
     "telemetry_types": [
       "logs",
-      "metrics",
       "traces"
     ],
     "tokens": [
       "llamaindex",
-      "agent",
+      "trace",
+      "queries",
+      "retrievers",
+      "and",
+      "response",
+      "synthesis",
+      "for",
+      "rag",
+      "observability",
       "llms",
       "ai",
       "agents",
       "logs",
-      "metrics",
       "traces"
     ]
   },
@@ -159,19 +190,19 @@
     "name": "N8n",
     "resource": "llm-ai-agents",
     "telemetry_types": [
-      "logs",
-      "metrics",
-      "traces"
+      "logs"
     ],
     "tokens": [
       "n8n",
-      "agent",
+      "send",
+      "workflow",
+      "execution",
+      "logs",
+      "to",
+      "parseable",
       "llms",
       "ai",
-      "agents",
-      "logs",
-      "metrics",
-      "traces"
+      "agents"
     ]
   },
   {
@@ -179,19 +210,24 @@
     "name": "OpenAI",
     "resource": "llm-ai-agents",
     "telemetry_types": [
-      "logs",
-      "metrics",
-      "traces"
+      "logs"
     ],
     "tokens": [
       "openai",
-      "agent",
+      "log",
+      "api",
+      "calls",
+      "responses",
+      "and",
+      "token",
+      "usage",
+      "for",
+      "llm",
+      "observability",
       "llms",
       "ai",
       "agents",
-      "logs",
-      "metrics",
-      "traces"
+      "logs"
     ]
   },
   {
@@ -220,7 +256,14 @@
     ],
     "tokens": [
       "filebeat",
-      "agent",
+      "lightweight",
+      "log",
+      "shipper",
+      "for",
+      "forwarding",
+      "and",
+      "centralizing",
+      "data",
       "telemetry",
       "agents",
       "logs"
@@ -238,12 +281,23 @@
     "tokens": [
       "fluent",
       "bit",
-      "agent",
-      "telemetry",
-      "agents",
+      "lightweight",
+      "and",
+      "fast",
+      "log",
+      "processor",
+      "forwarder",
+      "that",
+      "supports",
       "logs",
       "metrics",
-      "traces"
+      "traces",
+      "collection",
+      "with",
+      "opentelemetry",
+      "support",
+      "telemetry",
+      "agents"
     ]
   },
   {
@@ -255,7 +309,18 @@
     ],
     "tokens": [
       "fluentd",
-      "agent",
+      "open",
+      "source",
+      "data",
+      "collector",
+      "for",
+      "unified",
+      "logging",
+      "layer",
+      "with",
+      "flexible",
+      "plugin",
+      "architecture",
       "telemetry",
       "agents",
       "logs"
@@ -270,10 +335,21 @@
     ],
     "tokens": [
       "logstash",
-      "agent",
+      "server",
+      "side",
+      "data",
+      "processing",
+      "pipeline",
+      "that",
+      "ingests",
+      "transforms",
+      "and",
+      "sends",
+      "logs",
+      "to",
+      "parseable",
       "telemetry",
-      "agents",
-      "logs"
+      "agents"
     ]
   },
   {
@@ -300,10 +376,21 @@
     ],
     "tokens": [
       "promtail",
+      "log",
+      "collection",
       "agent",
+      "that",
+      "ships",
+      "logs",
+      "to",
+      "parseable",
+      "with",
+      "label",
+      "based",
+      "metadata",
+      "enrichment",
       "telemetry",
-      "agents",
-      "logs"
+      "agents"
     ]
   },
   {
@@ -331,10 +418,18 @@
     ],
     "tokens": [
       "vector",
-      "agent",
+      "high",
+      "performance",
+      "observability",
+      "data",
+      "pipeline",
+      "for",
+      "logs",
+      "collection",
+      "and",
+      "transformation",
       "telemetry",
-      "agents",
-      "logs"
+      "agents"
     ]
   },
   {
@@ -342,15 +437,18 @@
     "name": "Elasticsearch",
     "resource": "databases",
     "telemetry_types": [
-      "logs",
-      "metrics"
+      "logs"
     ],
     "tokens": [
       "elasticsearch",
-      "integration",
+      "migrate",
+      "log",
+      "data",
+      "from",
+      "to",
+      "parseable",
       "databases",
-      "logs",
-      "metrics"
+      "logs"
     ]
   },
   {
@@ -358,15 +456,17 @@
     "name": "MongoDB",
     "resource": "databases",
     "telemetry_types": [
-      "logs",
       "metrics"
     ],
     "tokens": [
       "mongodb",
-      "integration",
-      "databases",
-      "logs",
-      "metrics"
+      "monitor",
+      "database",
+      "metrics",
+      "using",
+      "opentelemetry",
+      "collector",
+      "databases"
     ]
   },
   {
@@ -374,15 +474,19 @@
     "name": "MySQL",
     "resource": "databases",
     "telemetry_types": [
-      "logs",
       "metrics"
     ],
     "tokens": [
       "mysql",
-      "integration",
-      "databases",
-      "logs",
-      "metrics"
+      "monitor",
+      "and",
+      "mariadb",
+      "database",
+      "metrics",
+      "using",
+      "opentelemetry",
+      "collector",
+      "databases"
     ]
   },
   {
@@ -390,15 +494,17 @@
     "name": "PostgreSQL",
     "resource": "databases",
     "telemetry_types": [
-      "logs",
       "metrics"
     ],
     "tokens": [
       "postgresql",
-      "integration",
-      "databases",
-      "logs",
-      "metrics"
+      "monitor",
+      "database",
+      "metrics",
+      "using",
+      "opentelemetry",
+      "collector",
+      "databases"
     ]
   },
   {
@@ -406,15 +512,17 @@
     "name": "Redis",
     "resource": "databases",
     "telemetry_types": [
-      "logs",
       "metrics"
     ],
     "tokens": [
       "redis",
-      "integration",
-      "databases",
-      "logs",
-      "metrics"
+      "monitor",
+      "cache",
+      "metrics",
+      "using",
+      "opentelemetry",
+      "collector",
+      "databases"
     ]
   },
   {
@@ -422,16 +530,24 @@
     "name": "AWS ECS",
     "resource": "containers",
     "telemetry_types": [
-      "logs",
-      "metrics"
+      "logs"
     ],
     "tokens": [
       "aws",
       "ecs",
-      "integration",
-      "containers",
+      "collect",
+      "container",
       "logs",
-      "metrics"
+      "from",
+      "amazon",
+      "tasks",
+      "using",
+      "fluent",
+      "bit",
+      "sidecar",
+      "or",
+      "firelens",
+      "containers"
     ]
   },
   {
@@ -439,16 +555,22 @@
     "name": "AWS EKS",
     "resource": "containers",
     "telemetry_types": [
-      "logs",
-      "metrics"
+      "logs"
     ],
     "tokens": [
       "aws",
       "eks",
-      "integration",
-      "containers",
+      "collect",
+      "container",
       "logs",
-      "metrics"
+      "from",
+      "amazon",
+      "clusters",
+      "using",
+      "fluent",
+      "bit",
+      "daemonset",
+      "containers"
     ]
   },
   {
@@ -456,16 +578,23 @@
     "name": "Azure AKS",
     "resource": "containers",
     "telemetry_types": [
-      "logs",
-      "metrics"
+      "logs"
     ],
     "tokens": [
       "azure",
       "aks",
-      "integration",
-      "containers",
+      "collect",
+      "container",
       "logs",
-      "metrics"
+      "from",
+      "kubernetes",
+      "service",
+      "clusters",
+      "using",
+      "fluent",
+      "bit",
+      "daemonset",
+      "containers"
     ]
   },
   {
@@ -473,15 +602,22 @@
     "name": "Docker",
     "resource": "containers",
     "telemetry_types": [
-      "logs",
-      "metrics"
+      "logs"
     ],
     "tokens": [
       "docker",
-      "integration",
-      "containers",
+      "collect",
+      "container",
       "logs",
-      "metrics"
+      "from",
+      "using",
+      "fluent",
+      "bit",
+      "or",
+      "native",
+      "logging",
+      "drivers",
+      "containers"
     ]
   },
   {
@@ -489,17 +625,23 @@
     "name": "Google GKE",
     "resource": "containers",
     "telemetry_types": [
-      "logs",
-      "metrics"
+      "logs"
     ],
     "tokens": [
       "google",
       "gke",
-      "gcp",
-      "integration",
-      "containers",
+      "collect",
+      "container",
       "logs",
-      "metrics"
+      "from",
+      "kubernetes",
+      "engine",
+      "clusters",
+      "using",
+      "fluent",
+      "bit",
+      "daemonset",
+      "containers"
     ]
   },
   {
@@ -507,15 +649,20 @@
     "name": "Kubernetes",
     "resource": "containers",
     "telemetry_types": [
-      "logs",
-      "metrics"
+      "logs"
     ],
     "tokens": [
       "kubernetes",
-      "integration",
-      "containers",
+      "collect",
+      "container",
       "logs",
-      "metrics"
+      "from",
+      "clusters",
+      "using",
+      "fluent",
+      "bit",
+      "daemonset",
+      "containers"
     ]
   },
   {
@@ -523,15 +670,20 @@
     "name": "Kafka",
     "resource": "streaming",
     "telemetry_types": [
-      "logs",
-      "metrics"
+      "logs"
     ],
     "tokens": [
       "kafka",
-      "integration",
-      "streaming",
+      "ingest",
       "logs",
-      "metrics"
+      "from",
+      "apache",
+      "topics",
+      "using",
+      "the",
+      "parseable",
+      "connector",
+      "streaming"
     ]
   },
   {
@@ -539,15 +691,16 @@
     "name": "NATS",
     "resource": "streaming",
     "telemetry_types": [
-      "logs",
-      "metrics"
+      "logs"
     ],
     "tokens": [
       "nats",
-      "integration",
-      "streaming",
+      "ingest",
       "logs",
-      "metrics"
+      "from",
+      "messaging",
+      "system",
+      "streaming"
     ]
   },
   {
@@ -555,15 +708,16 @@
     "name": "RabbitMQ",
     "resource": "streaming",
     "telemetry_types": [
-      "logs",
-      "metrics"
+      "logs"
     ],
     "tokens": [
       "rabbitmq",
-      "integration",
-      "streaming",
+      "ingest",
       "logs",
-      "metrics"
+      "from",
+      "message",
+      "queues",
+      "streaming"
     ]
   },
   {
@@ -571,15 +725,20 @@
     "name": "Redpanda",
     "resource": "streaming",
     "telemetry_types": [
-      "logs",
-      "metrics"
+      "logs"
     ],
     "tokens": [
       "redpanda",
-      "integration",
-      "streaming",
+      "ingest",
       "logs",
-      "metrics"
+      "from",
+      "streams",
+      "using",
+      "the",
+      "kafka",
+      "compatible",
+      "connector",
+      "streaming"
     ]
   },
   {
@@ -587,16 +746,20 @@
     "name": "ArgoCD",
     "resource": "ci-cd",
     "telemetry_types": [
-      "logs",
-      "metrics"
+      "logs"
     ],
     "tokens": [
       "argocd",
-      "integration",
-      "ci",
-      "cd",
+      "send",
+      "gitops",
+      "events",
+      "and",
+      "application",
       "logs",
-      "metrics"
+      "to",
+      "parseable",
+      "ci",
+      "cd"
     ]
   },
   {
@@ -604,16 +767,19 @@
     "name": "CircleCI",
     "resource": "ci-cd",
     "telemetry_types": [
-      "logs",
-      "metrics"
+      "logs"
     ],
     "tokens": [
       "circleci",
-      "integration",
+      "send",
+      "pipeline",
+      "logs",
+      "to",
+      "parseable",
+      "for",
       "ci",
       "cd",
-      "logs",
-      "metrics"
+      "observability"
     ]
   },
   {
@@ -621,17 +787,20 @@
     "name": "GitHub Actions",
     "resource": "ci-cd",
     "telemetry_types": [
-      "logs",
-      "metrics"
+      "logs"
     ],
     "tokens": [
       "github",
       "actions",
-      "integration",
+      "send",
+      "workflow",
+      "logs",
+      "to",
+      "parseable",
+      "for",
       "ci",
       "cd",
-      "logs",
-      "metrics"
+      "observability"
     ]
   },
   {
@@ -639,16 +808,19 @@
     "name": "GitLab",
     "resource": "ci-cd",
     "telemetry_types": [
-      "logs",
-      "metrics"
+      "logs"
     ],
     "tokens": [
       "gitlab",
-      "integration",
+      "send",
       "ci",
       "cd",
+      "pipeline",
       "logs",
-      "metrics"
+      "to",
+      "parseable",
+      "for",
+      "observability"
     ]
   },
   {
@@ -656,16 +828,19 @@
     "name": "Jenkins",
     "resource": "ci-cd",
     "telemetry_types": [
-      "logs",
-      "metrics"
+      "logs"
     ],
     "tokens": [
       "jenkins",
-      "integration",
+      "send",
+      "build",
+      "logs",
+      "to",
+      "parseable",
+      "for",
       "ci",
       "cd",
-      "logs",
-      "metrics"
+      "observability"
     ]
   },
   {
@@ -673,16 +848,20 @@
     "name": "Terraform",
     "resource": "ci-cd",
     "telemetry_types": [
-      "logs",
-      "metrics"
+      "logs"
     ],
     "tokens": [
       "terraform",
-      "integration",
-      "ci",
-      "cd",
+      "send",
+      "execution",
       "logs",
-      "metrics"
+      "and",
+      "state",
+      "changes",
+      "to",
+      "parseable",
+      "ci",
+      "cd"
     ]
   },
   {
@@ -690,17 +869,21 @@
     "name": "AWS CloudWatch",
     "resource": "cloud-providers",
     "telemetry_types": [
-      "logs",
-      "metrics"
+      "logs"
     ],
     "tokens": [
       "aws",
       "cloudwatch",
-      "integration",
-      "cloud",
-      "providers",
+      "stream",
       "logs",
-      "metrics"
+      "to",
+      "parseable",
+      "using",
+      "lambda",
+      "subscription",
+      "filters",
+      "cloud",
+      "providers"
     ]
   },
   {
@@ -708,17 +891,20 @@
     "name": "AWS Kinesis",
     "resource": "cloud-providers",
     "telemetry_types": [
-      "logs",
-      "metrics"
+      "logs"
     ],
     "tokens": [
       "aws",
       "kinesis",
-      "integration",
-      "cloud",
-      "providers",
+      "stream",
       "logs",
-      "metrics"
+      "from",
+      "data",
+      "streams",
+      "to",
+      "parseable",
+      "cloud",
+      "providers"
     ]
   },
   {
@@ -726,18 +912,22 @@
     "name": "Azure Events Hubs",
     "resource": "cloud-providers",
     "telemetry_types": [
-      "logs",
-      "metrics"
+      "logs"
     ],
     "tokens": [
       "azure",
       "events",
       "hubs",
-      "integration",
-      "cloud",
-      "providers",
+      "stream",
       "logs",
-      "metrics"
+      "from",
+      "event",
+      "to",
+      "parseable",
+      "using",
+      "functions",
+      "cloud",
+      "providers"
     ]
   },
   {
@@ -745,18 +935,21 @@
     "name": "Google Cloud Pub/Sub",
     "resource": "cloud-providers",
     "telemetry_types": [
-      "logs",
-      "metrics"
+      "logs"
     ],
     "tokens": [
       "google",
       "cloud",
       "pub",
       "sub",
-      "integration",
-      "providers",
+      "stream",
       "logs",
-      "metrics"
+      "from",
+      "to",
+      "parseable",
+      "using",
+      "functions",
+      "providers"
     ]
   },
   {
@@ -764,15 +957,20 @@
     "name": "Falco",
     "resource": "security",
     "telemetry_types": [
-      "logs",
-      "metrics"
+      "logs"
     ],
     "tokens": [
       "falco",
-      "integration",
+      "send",
+      "runtime",
       "security",
-      "logs",
-      "metrics"
+      "events",
+      "to",
+      "parseable",
+      "for",
+      "threat",
+      "detection",
+      "logs"
     ]
   },
   {
@@ -780,16 +978,21 @@
     "name": "SIEM Export",
     "resource": "security",
     "telemetry_types": [
-      "logs",
-      "metrics"
+      "logs"
     ],
     "tokens": [
       "siem",
       "export",
-      "integration",
-      "security",
       "logs",
-      "metrics"
+      "from",
+      "parseable",
+      "to",
+      "platforms",
+      "like",
+      "splunk",
+      "and",
+      "sentinel",
+      "security"
     ]
   },
   {
@@ -797,15 +1000,20 @@
     "name": "Trivy",
     "resource": "security",
     "telemetry_types": [
-      "logs",
-      "metrics"
+      "logs"
     ],
     "tokens": [
       "trivy",
-      "integration",
+      "send",
+      "vulnerability",
+      "scan",
+      "results",
+      "to",
+      "parseable",
+      "for",
       "security",
-      "logs",
-      "metrics"
+      "monitoring",
+      "logs"
     ]
   },
   {
@@ -817,10 +1025,15 @@
     ],
     "tokens": [
       "go",
-      "sdk",
+      "send",
+      "logs",
+      "from",
+      "applications",
+      "using",
+      "http",
+      "requests",
       "programming",
-      "languages",
-      "logs"
+      "languages"
     ]
   },
   {
@@ -832,10 +1045,18 @@
     ],
     "tokens": [
       "java",
-      "sdk",
+      "send",
+      "logs",
+      "from",
+      "applications",
+      "using",
+      "okhttp",
+      "or",
+      "other",
+      "http",
+      "clients",
       "programming",
-      "languages",
-      "logs"
+      "languages"
     ]
   },
   {
@@ -847,10 +1068,20 @@
     ],
     "tokens": [
       "javascript",
-      "sdk",
+      "send",
+      "logs",
+      "from",
+      "node",
+      "js",
+      "apps",
+      "using",
+      "winston",
+      "bunyan",
+      "plugins",
+      "or",
+      "http",
       "programming",
-      "languages",
-      "logs"
+      "languages"
     ]
   },
   {
@@ -862,10 +1093,18 @@
     ],
     "tokens": [
       "python",
-      "sdk",
+      "send",
+      "logs",
+      "from",
+      "applications",
+      "using",
+      "http",
+      "requests",
+      "or",
+      "logging",
+      "libraries",
       "programming",
-      "languages",
-      "logs"
+      "languages"
     ]
   },
   {
@@ -877,10 +1116,19 @@
     ],
     "tokens": [
       "ruby",
-      "sdk",
+      "send",
+      "logs",
+      "from",
+      "applications",
+      "with",
+      "rails",
+      "sinatra",
+      "and",
+      "other",
+      "framework",
+      "support",
       "programming",
-      "languages",
-      "logs"
+      "languages"
     ]
   }
 ]
