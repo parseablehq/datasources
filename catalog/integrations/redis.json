@@ -2,8 +2,8 @@
   "id": "redis",
   "name": "Redis",
   "resource": "databases",
-  "telemetry_types": ["logs", "metrics"],
-  "description": "Redis Integration",
+  "telemetry_types": ["metrics"],
+  "description": "Monitor Redis cache metrics using OpenTelemetry Collector",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/databases/redis"
   },

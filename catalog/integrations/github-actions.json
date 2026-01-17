@@ -2,8 +2,8 @@
   "id": "github-actions",
   "name": "GitHub Actions",
   "resource": "ci-cd",
-  "telemetry_types": ["logs", "metrics"],
-  "description": "GitHub Actions Integration",
+  "telemetry_types": ["logs"],
+  "description": "Send GitHub Actions workflow logs to Parseable for CI/CD observability",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/github-actions"
   },

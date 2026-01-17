@@ -2,8 +2,8 @@
   "id": "google-pub-sub",
   "name": "Google Cloud Pub/Sub",
   "resource": "cloud-providers",
-  "telemetry_types": ["logs", "metrics"],
-  "description": "Google Cloud Pub/Sub Integration",
+  "telemetry_types": ["logs"],
+  "description": "Stream logs from Google Cloud Pub/Sub to Parseable using Cloud Functions",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/google-pub-sub"
   },

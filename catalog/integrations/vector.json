@@ -3,7 +3,7 @@
   "name": "Vector",
   "resource": "telemetry-agents",
   "telemetry_types": ["logs"],
-  "description": "Vector Agent",
+  "description": "High-performance observability data pipeline for logs collection and transformation",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/vector"
   },

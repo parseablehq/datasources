@@ -2,8 +2,8 @@
   "id": "terraform",
   "name": "Terraform",
   "resource": "ci-cd",
-  "telemetry_types": ["logs", "metrics"],
-  "description": "Terraform Integration",
+  "telemetry_types": ["logs"],
+  "description": "Send Terraform execution logs and state changes to Parseable",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/terraform"
   },

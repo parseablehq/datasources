@@ -2,8 +2,8 @@
   "id": "siem-export",
   "name": "SIEM Export",
   "resource": "security",
-  "telemetry_types": ["logs", "metrics"],
-  "description": "SIEM Export Integration",
+  "telemetry_types": ["logs"],
+  "description": "Export logs from Parseable to SIEM platforms like Splunk and Sentinel",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/siem-export"
   },

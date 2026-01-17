@@ -2,8 +2,8 @@
   "id": "azure-events-hubs",
   "name": "Azure Events Hubs",
   "resource": "cloud-providers",
-  "telemetry_types": ["logs", "metrics"],
-  "description": "Azure Events Hubs Integration",
+  "telemetry_types": ["logs"],
+  "description": "Stream logs from Azure Event Hubs to Parseable using Azure Functions",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/azure-events-hubs"
   },

@@ -2,8 +2,8 @@
   "id": "langchain",
   "name": "LangChain",
   "resource": "llm-ai-agents",
-  "telemetry_types": ["logs", "metrics", "traces"],
-  "description": "LangChain Agent",
+  "telemetry_types": ["logs", "traces"],
+  "description": "Trace LangChain chains, agents, and tool calls for LLM observability",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/langchain/logs"
   },

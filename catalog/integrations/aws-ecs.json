@@ -2,8 +2,8 @@
   "id": "aws-ecs",
   "name": "AWS ECS",
   "resource": "containers",
-  "telemetry_types": ["logs", "metrics"],
-  "description": "AWS ECS Integration",
+  "telemetry_types": ["logs"],
+  "description": "Collect container logs from Amazon ECS tasks using Fluent Bit sidecar or FireLens",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/aws-ecs"
   },

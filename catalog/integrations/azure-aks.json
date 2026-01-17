@@ -2,8 +2,8 @@
   "id": "azure-aks",
   "name": "Azure AKS",
   "resource": "containers",
-  "telemetry_types": ["logs", "metrics"],
-  "description": "Azure AKS Integration",
+  "telemetry_types": ["logs"],
+  "description": "Collect container logs from Azure Kubernetes Service clusters using Fluent Bit DaemonSet",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/azure-aks"
   },

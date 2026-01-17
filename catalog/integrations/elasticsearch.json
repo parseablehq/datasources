@@ -2,8 +2,8 @@
   "id": "elasticsearch",
   "name": "Elasticsearch",
   "resource": "databases",
-  "telemetry_types": ["logs", "metrics"],
-  "description": "Elasticsearch Integration",
+  "telemetry_types": ["logs"],
+  "description": "Migrate log data from Elasticsearch to Parseable",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/databases/elasticsearch"
   },

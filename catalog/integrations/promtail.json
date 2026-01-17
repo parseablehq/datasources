@@ -3,7 +3,7 @@
   "name": "Promtail",
   "resource": "telemetry-agents",
   "telemetry_types": ["logs"],
-  "description": "Promtail Agent",
+  "description": "Log collection agent that ships logs to Parseable with label-based metadata enrichment",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/promtail"
   },

@@ -3,7 +3,7 @@
   "name": "Filebeat",
   "resource": "telemetry-agents",
   "telemetry_types": ["logs"],
-  "description": "Filebeat Agent",
+  "description": "Lightweight log shipper for forwarding and centralizing log data",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/filebeat"
   },

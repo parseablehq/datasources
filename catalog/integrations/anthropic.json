@@ -2,8 +2,8 @@
   "id": "anthropic",
   "name": "Anthropic",
   "resource": "llm-ai-agents",
-  "telemetry_types": ["logs", "metrics", "traces"],
-  "description": "Anthropic Agent",
+  "telemetry_types": ["logs"],
+  "description": "Log Anthropic Claude API calls and token usage for LLM observability",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/anthropic/logs"
   },

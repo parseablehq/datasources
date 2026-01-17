@@ -2,8 +2,8 @@
   "id": "gcp-gke",
   "name": "Google GKE",
   "resource": "containers",
-  "telemetry_types": ["logs", "metrics"],
-  "description": "GCP GKE Integration",
+  "telemetry_types": ["logs"],
+  "description": "Collect container logs from Google Kubernetes Engine clusters using Fluent Bit DaemonSet",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/gcp-gke"
   },

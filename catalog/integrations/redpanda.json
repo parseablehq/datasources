@@ -2,8 +2,8 @@
   "id": "redpanda",
   "name": "Redpanda",
   "resource": "streaming",
-  "telemetry_types": ["logs", "metrics"],
-  "description": "Redpanda Integration",
+  "telemetry_types": ["logs"],
+  "description": "Ingest logs from Redpanda streams using the Kafka-compatible connector",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/redpanda"
   },

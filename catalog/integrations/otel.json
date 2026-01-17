@@ -3,7 +3,7 @@
   "name": "Otel",
   "resource": "opentelemetry",
   "telemetry_types": ["logs", "metrics", "traces"],
-  "description": "OpenTelemetry Agent",
+  "description": "Ingest logs, metrics, and traces via OpenTelemetry Protocol (OTLP)",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/otel/logs"
   },

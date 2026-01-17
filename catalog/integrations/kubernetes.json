@@ -2,8 +2,8 @@
   "id": "kubernetes",
   "name": "Kubernetes",
   "resource": "containers",
-  "telemetry_types": ["logs", "metrics"],
-  "description": "Kubernetes Integration",
+  "telemetry_types": ["logs"],
+  "description": "Collect container logs from Kubernetes clusters using Fluent Bit DaemonSet",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/containers/kubernetes"
   },

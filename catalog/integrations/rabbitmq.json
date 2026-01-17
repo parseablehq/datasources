@@ -2,8 +2,8 @@
   "id": "rabbitmq",
   "name": "RabbitMQ",
   "resource": "streaming",
-  "telemetry_types": ["logs", "metrics"],
-  "description": "RabbitMQ Integration",
+  "telemetry_types": ["logs"],
+  "description": "Ingest logs from RabbitMQ message queues",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/rabbitmq"
   },

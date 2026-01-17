@@ -2,8 +2,8 @@
   "id": "argocd",
   "name": "ArgoCD",
   "resource": "ci-cd",
-  "telemetry_types": ["logs", "metrics"],
-  "description": "ArgoCD Integration",
+  "telemetry_types": ["logs"],
+  "description": "Send ArgoCD GitOps events and application logs to Parseable",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/argocd"
   },

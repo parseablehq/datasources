@@ -3,7 +3,7 @@
   "name": "JavaScript",
   "resource": "programming-languages",
   "telemetry_types": ["logs"],
-  "description": "JavaScript SDK",
+  "description": "Send logs from JavaScript/Node.js apps using Winston, Bunyan plugins or HTTP",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/sdks/javascript"
   },

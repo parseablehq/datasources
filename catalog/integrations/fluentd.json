@@ -3,7 +3,7 @@
   "name": "Fluentd",
   "resource": "telemetry-agents",
   "telemetry_types": ["logs"],
-  "description": "Fluentd Agent",
+  "description": "Open-source data collector for unified logging layer with flexible plugin architecture",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/fluentd"
   },

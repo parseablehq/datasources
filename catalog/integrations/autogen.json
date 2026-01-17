@@ -2,8 +2,8 @@
   "id": "autogen",
   "name": "AutoGen",
   "resource": "llm-ai-agents",
-  "telemetry_types": ["logs", "metrics", "traces"],
-  "description": "AutoGen Agent",
+  "telemetry_types": ["logs", "traces"],
+  "description": "Trace Microsoft AutoGen multi-agent conversations and workflows",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/autogen/logs"
   },

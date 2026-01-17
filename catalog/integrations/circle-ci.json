@@ -2,8 +2,8 @@
   "id": "circle-ci",
   "name": "CircleCI",
   "resource": "ci-cd",
-  "telemetry_types": ["logs", "metrics"],
-  "description": "CircleCI Integration",
+  "telemetry_types": ["logs"],
+  "description": "Send CircleCI pipeline logs to Parseable for CI/CD observability",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/integrations/streaming/circle-ci"
   },

@@ -3,7 +3,7 @@
   "name": "Logstash",
   "resource": "telemetry-agents",
   "telemetry_types": ["logs"],
-  "description": "Logstash Agent",
+  "description": "Server-side data processing pipeline that ingests, transforms, and sends logs to Parseable",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/logstash"
   },

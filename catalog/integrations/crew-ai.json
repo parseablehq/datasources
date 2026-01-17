@@ -2,8 +2,8 @@
   "id": "crew-ai",
   "name": "CrewAI",
   "resource": "llm-ai-agents",
-  "telemetry_types": ["logs", "metrics", "traces"],
-  "description": "CrewAI Agent",
+  "telemetry_types": ["logs", "traces"],
+  "description": "Trace CrewAI agent crews, tasks, and tool executions",
   "links": {
     "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/crew-ai/logs"
   },
