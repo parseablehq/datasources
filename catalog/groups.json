@@ -33,7 +33,7 @@
         ],
         "description": "eBPF Agent",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/ebpf/logs"
+          "docs": "https://www.parseable.com/docs/ingest-data/zero-instrumentation"
         },
         "assets": {
           "logo": "assets/ebpf.svg"
@@ -174,7 +174,7 @@
         ],
         "description": "Apache Log4j 2 Agent",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/apache-log-4j"
+          "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/apache-log-4j"
         },
         "assets": {
           "logo": "assets/log4j.svg"
@@ -246,7 +246,7 @@
         ],
         "description": "Prometheus Agent",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/prometheus"
+          "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/prometheus"
         },
         "assets": {
           "logo": "assets/prometheus.svg"
@@ -274,7 +274,7 @@
         ],
         "description": "Syslog-ng Agent",
         "links": {
-          "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/syslog-ng"
+          "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/syslog"
         },
         "assets": {
           "logo": "assets/syslog-ng.svg"

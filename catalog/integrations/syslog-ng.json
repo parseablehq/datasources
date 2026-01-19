@@ -5,7 +5,7 @@
   "telemetry_types": ["logs"],
   "description": "Syslog-ng Agent",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/syslog-ng"
+    "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/syslog"
   },
   "assets": {
     "logo": "assets/syslog-ng.svg"
