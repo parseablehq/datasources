@@ -5,7 +5,7 @@
   "telemetry_types": ["logs"],
   "description": "Apache Log4j 2 Agent",
   "links": {
-    "docs": "https://docs-git-dcrn-parseable-project.vercel.app/ingest-data/logs/logging-agents/apache-log-4j"
+    "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/apache-log-4j"
   },
   "assets": { "logo": "assets/log4j.svg" }
 }
