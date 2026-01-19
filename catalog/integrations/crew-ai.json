@@ -5,7 +5,7 @@
   "telemetry_types": ["logs", "traces"],
   "description": "Trace CrewAI agent crews, tasks, and tool executions",
   "links": {
-    "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/crew-ai"
+    "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/crewai"
   },
   "assets": { "logo": "assets/crewai.svg" }
 }

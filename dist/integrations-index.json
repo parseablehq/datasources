@@ -82,7 +82,7 @@
     ],
     "description": "Trace CrewAI agent crews, tasks, and tool executions",
     "links": {
-      "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/crew-ai"
+      "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/crewai"
     },
     "assets": {
       "logo": "assets/crewai.svg"
@@ -136,7 +136,7 @@
     ],
     "description": "Trace LlamaIndex queries, retrievers, and response synthesis for RAG observability",
     "links": {
-      "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/llama-index"
+      "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/llamaindex"
     },
     "assets": {
       "logo": "assets/llama-index.svg"
@@ -614,7 +614,7 @@
     ],
     "description": "Send CircleCI pipeline logs to Parseable for CI/CD observability",
     "links": {
-      "docs": "https://www.parseable.com/docs/ingest-data/cicd/circle-ci"
+      "docs": "https://www.parseable.com/docs/ingest-data/cicd/circleci"
     },
     "assets": {
       "logo": "assets/circle-ci.svg"
@@ -648,7 +648,7 @@
     ],
     "description": "Send GitLab CI/CD pipeline logs to Parseable for observability",
     "links": {
-      "docs": "https://www.parseable.com/docs/ingest-data/cicd/gitlab"
+      "docs": "https://www.parseable.com/docs/ingest-data/cicd/gitlab-ci"
     },
     "assets": {
       "logo": "assets/gitlab.svg"
