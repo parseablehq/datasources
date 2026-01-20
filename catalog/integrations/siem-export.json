@@ -2,8 +2,11 @@
   "id": "siem-export",
   "name": "SIEM Export",
   "resource": "security",
-  "telemetry_types": ["logs"],
+  "telemetry_types": [
+    "logs"
+  ],
   "description": "Export logs from Parseable to SIEM platforms like Splunk and Sentinel",
+  "isOtel": false,
   "links": {
     "docs": "https://www.parseable.com/docs/ingest-data/security/siem-export"
   },

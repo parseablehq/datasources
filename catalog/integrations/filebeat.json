@@ -2,10 +2,15 @@
   "id": "filebeat",
   "name": "Filebeat",
   "resource": "telemetry-agents",
-  "telemetry_types": ["logs"],
+  "telemetry_types": [
+    "logs"
+  ],
   "description": "Lightweight log shipper for forwarding and centralizing log data",
+  "isOtel": false,
   "links": {
     "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/filebeat"
   },
-  "assets": { "logo": "assets/filebeat.svg" }
+  "assets": {
+    "logo": "assets/filebeat.svg"
+  }
 }

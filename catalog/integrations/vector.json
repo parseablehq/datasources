@@ -2,8 +2,11 @@
   "id": "vector",
   "name": "Vector",
   "resource": "telemetry-agents",
-  "telemetry_types": ["logs"],
+  "telemetry_types": [
+    "logs"
+  ],
   "description": "High-performance observability data pipeline for logs collection and transformation",
+  "isOtel": false,
   "links": {
     "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/vector"
   },

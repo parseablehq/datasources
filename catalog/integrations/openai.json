@@ -2,10 +2,15 @@
   "id": "openai",
   "name": "OpenAI",
   "resource": "llm-ai-agents",
-  "telemetry_types": ["logs"],
+  "telemetry_types": [
+    "logs"
+  ],
   "description": "Log OpenAI API calls, responses, and token usage for LLM observability",
+  "isOtel": false,
   "links": {
     "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/openai"
   },
-  "assets": { "logo": "assets/openai.svg" }
+  "assets": {
+    "logo": "assets/openai.svg"
+  }
 }

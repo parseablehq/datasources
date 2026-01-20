@@ -2,8 +2,11 @@
   "id": "aws-kinesis",
   "name": "AWS Kinesis",
   "resource": "cloud-providers",
-  "telemetry_types": ["logs"],
+  "telemetry_types": [
+    "logs"
+  ],
   "description": "Stream logs from AWS Kinesis Data Streams to Parseable",
+  "isOtel": false,
   "links": {
     "docs": "https://www.parseable.com/docs/ingest-data/cloud/aws-kinesis"
   },

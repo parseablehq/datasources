@@ -2,10 +2,16 @@
   "id": "dspy",
   "name": "DSPy",
   "resource": "llm-ai-agents",
-  "telemetry_types": ["logs", "traces"],
+  "telemetry_types": [
+    "logs",
+    "traces"
+  ],
   "description": "Trace DSPy programs, modules, and optimization runs",
+  "isOtel": false,
   "links": {
     "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/dspy"
   },
-  "assets": { "logo": "assets/dspy.png" }
+  "assets": {
+    "logo": "assets/dspy.png"
+  }
 }

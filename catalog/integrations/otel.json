@@ -4,6 +4,7 @@
   "resource": "opentelemetry",
   "telemetry_types": ["logs", "metrics", "traces"],
   "description": "Ingest logs, metrics, and traces via OpenTelemetry Protocol (OTLP)",
+  "isOtel": true,
   "links": {
     "docs": "https://www.parseable.com/docs/ingest-data/otel"
   },

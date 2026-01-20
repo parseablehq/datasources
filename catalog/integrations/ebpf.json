@@ -2,10 +2,17 @@
   "id": "ebpf",
   "name": "eBPF",
   "resource": "ebpf",
-  "telemetry_types": ["logs", "metrics", "traces"],
+  "telemetry_types": [
+    "logs",
+    "metrics",
+    "traces"
+  ],
   "description": "eBPF Agent",
+  "isOtel": false,
   "links": {
     "docs": "https://www.parseable.com/docs/ingest-data/zero-instrumentation"
   },
-  "assets": { "logo": "assets/ebpf.svg" }
+  "assets": {
+    "logo": "assets/ebpf.svg"
+  }
 }

@@ -2,10 +2,15 @@
   "id": "n8n",
   "name": "N8n",
   "resource": "llm-ai-agents",
-  "telemetry_types": ["logs"],
+  "telemetry_types": [
+    "logs"
+  ],
   "description": "Send n8n workflow execution logs to Parseable",
+  "isOtel": false,
   "links": {
     "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/n8n"
   },
-  "assets": { "logo": "assets/n8n.svg" }
+  "assets": {
+    "logo": "assets/n8n.svg"
+  }
 }

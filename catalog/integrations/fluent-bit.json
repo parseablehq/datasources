@@ -4,6 +4,7 @@
   "resource": "telemetry-agents",
   "telemetry_types": ["logs", "metrics", "traces"],
   "description": "Lightweight and fast log processor and forwarder that supports logs, metrics, and traces collection with OpenTelemetry support",
+  "isOtel": true,
   "links": {
     "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/fluent-bit"
   },
