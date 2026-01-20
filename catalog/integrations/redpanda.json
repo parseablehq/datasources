@@ -2,8 +2,11 @@
   "id": "redpanda",
   "name": "Redpanda",
   "resource": "streaming",
-  "telemetry_types": ["logs"],
+  "telemetry_types": [
+    "logs"
+  ],
   "description": "Ingest logs from Redpanda streams using the Kafka-compatible connector",
+  "isOtel": false,
   "links": {
     "docs": "https://www.parseable.com/docs/ingest-data/streaming/redpanda"
   },

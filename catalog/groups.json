@@ -11,6 +11,7 @@
           "traces"
         ],
         "description": "Ingest logs, metrics, and traces via OpenTelemetry Protocol (OTLP)",
+        "isOtel": true,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/otel"
         },
@@ -32,6 +33,7 @@
           "traces"
         ],
         "description": "eBPF Agent",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/zero-instrumentation"
         },
@@ -51,6 +53,7 @@
           "logs"
         ],
         "description": "Log Anthropic Claude API calls and token usage for LLM observability",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/anthropic"
         },
@@ -66,6 +69,7 @@
           "traces"
         ],
         "description": "Trace Microsoft AutoGen multi-agent conversations and workflows",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/autogen"
         },
@@ -81,6 +85,7 @@
           "traces"
         ],
         "description": "Trace CrewAI agent crews, tasks, and tool executions",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/crewai"
         },
@@ -96,6 +101,7 @@
           "traces"
         ],
         "description": "Trace DSPy programs, modules, and optimization runs",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/dspy"
         },
@@ -111,6 +117,7 @@
           "traces"
         ],
         "description": "Trace LangChain chains, agents, and tool calls for LLM observability",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/langchain"
         },
@@ -126,6 +133,7 @@
           "traces"
         ],
         "description": "Trace LlamaIndex queries, retrievers, and response synthesis for RAG observability",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/llamaindex"
         },
@@ -140,6 +148,7 @@
           "logs"
         ],
         "description": "Send n8n workflow execution logs to Parseable",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/n8n"
         },
@@ -154,6 +163,7 @@
           "logs"
         ],
         "description": "Log OpenAI API calls, responses, and token usage for LLM observability",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/openai"
         },
@@ -173,6 +183,7 @@
           "logs"
         ],
         "description": "Apache Log4j 2 Agent",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/apache-log-4j"
         },
@@ -187,6 +198,7 @@
           "logs"
         ],
         "description": "Lightweight log shipper for forwarding and centralizing log data",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/filebeat"
         },
@@ -203,6 +215,7 @@
           "traces"
         ],
         "description": "Lightweight and fast log processor and forwarder that supports logs, metrics, and traces collection with OpenTelemetry support",
+        "isOtel": true,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/fluent-bit"
         },
@@ -217,6 +230,7 @@
           "logs"
         ],
         "description": "Open-source data collector for unified logging layer with flexible plugin architecture",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/fluentd"
         },
@@ -231,6 +245,7 @@
           "logs"
         ],
         "description": "Server-side data processing pipeline that ingests, transforms, and sends logs to Parseable",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/logstash"
         },
@@ -245,6 +260,7 @@
           "metrics"
         ],
         "description": "Prometheus Agent",
+        "isOtel": true,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/prometheus"
         },
@@ -259,6 +275,7 @@
           "logs"
         ],
         "description": "Log collection agent that ships logs to Parseable with label-based metadata enrichment",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/promtail"
         },
@@ -273,6 +290,7 @@
           "logs"
         ],
         "description": "Syslog-ng Agent",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/syslog"
         },
@@ -287,6 +305,7 @@
           "logs"
         ],
         "description": "High-performance observability data pipeline for logs collection and transformation",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/vector"
         },
@@ -306,6 +325,7 @@
           "logs"
         ],
         "description": "Migrate log data from Elasticsearch to Parseable",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/databases/elasticsearch"
         },
@@ -320,6 +340,7 @@
           "metrics"
         ],
         "description": "Monitor MongoDB database metrics using OpenTelemetry Collector",
+        "isOtel": true,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/databases/mongodb"
         },
@@ -334,6 +355,7 @@
           "metrics"
         ],
         "description": "Monitor MySQL and MariaDB database metrics using OpenTelemetry Collector",
+        "isOtel": true,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/databases/mysql"
         },
@@ -348,6 +370,7 @@
           "metrics"
         ],
         "description": "Monitor PostgreSQL database metrics using OpenTelemetry Collector",
+        "isOtel": true,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/databases/postgresql"
         },
@@ -362,6 +385,7 @@
           "metrics"
         ],
         "description": "Monitor Redis cache metrics using OpenTelemetry Collector",
+        "isOtel": true,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/databases/redis"
         },
@@ -381,6 +405,7 @@
           "logs"
         ],
         "description": "Collect container logs from Amazon ECS tasks using Fluent Bit sidecar or FireLens",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/containers/amazon-ecs"
         },
@@ -395,6 +420,7 @@
           "logs"
         ],
         "description": "Collect container logs from Amazon EKS clusters using Fluent Bit DaemonSet",
+        "isOtel": true,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/containers/amazon-eks"
         },
@@ -409,6 +435,7 @@
           "logs"
         ],
         "description": "Collect container logs from Azure Kubernetes Service clusters using Fluent Bit DaemonSet",
+        "isOtel": true,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/containers/azure-aks"
         },
@@ -423,6 +450,7 @@
           "logs"
         ],
         "description": "Collect container logs from Docker using Fluent Bit or native Docker logging drivers",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/containers/docker"
         },
@@ -437,6 +465,7 @@
           "logs"
         ],
         "description": "Collect container logs from Google Kubernetes Engine clusters using Fluent Bit DaemonSet",
+        "isOtel": true,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/containers/google-gke"
         },
@@ -451,6 +480,7 @@
           "logs"
         ],
         "description": "Collect container logs from Kubernetes clusters using Fluent Bit DaemonSet",
+        "isOtel": true,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/containers/kubernetes"
         },
@@ -470,6 +500,7 @@
           "logs"
         ],
         "description": "Ingest logs from Apache Kafka topics using the Parseable Kafka Connector",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/streaming/kafka"
         },
@@ -484,6 +515,7 @@
           "logs"
         ],
         "description": "Ingest logs from NATS messaging system",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/streaming/nats"
         },
@@ -498,6 +530,7 @@
           "logs"
         ],
         "description": "Ingest logs from RabbitMQ message queues",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/streaming/rabbitmq"
         },
@@ -512,6 +545,7 @@
           "logs"
         ],
         "description": "Ingest logs from Redpanda streams using the Kafka-compatible connector",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/streaming/redpanda"
         },
@@ -531,6 +565,7 @@
           "logs"
         ],
         "description": "Send ArgoCD GitOps events and application logs to Parseable",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/cicd/argocd"
         },
@@ -545,6 +580,7 @@
           "logs"
         ],
         "description": "Send CircleCI pipeline logs to Parseable for CI/CD observability",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/cicd/circleci"
         },
@@ -559,6 +595,7 @@
           "logs"
         ],
         "description": "Send GitHub Actions workflow logs to Parseable for CI/CD observability",
+        "isOtel": true,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/cicd/github-actions"
         },
@@ -573,6 +610,7 @@
           "logs"
         ],
         "description": "Send GitLab CI/CD pipeline logs to Parseable for observability",
+        "isOtel": true,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/cicd/gitlab-ci"
         },
@@ -587,6 +625,7 @@
           "logs"
         ],
         "description": "Send Jenkins build logs to Parseable for CI/CD observability",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/cicd/jenkins"
         },
@@ -601,6 +640,7 @@
           "logs"
         ],
         "description": "Send Terraform execution logs and state changes to Parseable",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/cicd/terraform"
         },
@@ -620,6 +660,7 @@
           "logs"
         ],
         "description": "Stream CloudWatch logs to Parseable using Lambda subscription filters",
+        "isOtel": true,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/cloud/aws-cloudwatch"
         },
@@ -634,6 +675,7 @@
           "logs"
         ],
         "description": "Stream logs from AWS Kinesis Data Streams to Parseable",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/cloud/aws-kinesis"
         },
@@ -648,6 +690,7 @@
           "logs"
         ],
         "description": "Stream logs from Azure Event Hubs to Parseable using Azure Functions",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/cloud/azure-event-hubs"
         },
@@ -662,6 +705,7 @@
           "logs"
         ],
         "description": "Stream logs from Google Cloud Pub/Sub to Parseable using Cloud Functions",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/cloud/gcp-pubsub"
         },
@@ -681,6 +725,7 @@
           "logs"
         ],
         "description": "Send Falco runtime security events to Parseable for threat detection",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/security/falco"
         },
@@ -695,6 +740,7 @@
           "logs"
         ],
         "description": "Export logs from Parseable to SIEM platforms like Splunk and Sentinel",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/security/siem-export"
         },
@@ -709,6 +755,7 @@
           "logs"
         ],
         "description": "Send Trivy vulnerability scan results to Parseable for security monitoring",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/security/trivy"
         },
@@ -728,6 +775,7 @@
           "logs"
         ],
         "description": "Send logs from Go applications using HTTP requests",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/go"
         },
@@ -742,6 +790,7 @@
           "logs"
         ],
         "description": "Send logs from Java applications using OkHttp or other HTTP clients",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/java"
         },
@@ -756,6 +805,7 @@
           "logs"
         ],
         "description": "Send logs from JavaScript/Node.js apps using Winston, Bunyan plugins or HTTP",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/javascript"
         },
@@ -770,6 +820,7 @@
           "logs"
         ],
         "description": "Send logs from Python applications using HTTP requests or logging libraries",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/python"
         },
@@ -784,6 +835,7 @@
           "logs"
         ],
         "description": "Send logs from Ruby applications with Rails, Sinatra, and other framework support",
+        "isOtel": false,
         "links": {
           "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/ruby"
         },

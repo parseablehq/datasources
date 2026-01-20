@@ -2,10 +2,16 @@
   "id": "autogen",
   "name": "AutoGen",
   "resource": "llm-ai-agents",
-  "telemetry_types": ["logs", "traces"],
+  "telemetry_types": [
+    "logs",
+    "traces"
+  ],
   "description": "Trace Microsoft AutoGen multi-agent conversations and workflows",
+  "isOtel": false,
   "links": {
     "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/autogen"
   },
-  "assets": { "logo": "assets/autogen.svg" }
+  "assets": {
+    "logo": "assets/autogen.svg"
+  }
 }

@@ -2,8 +2,11 @@
   "id": "go",
   "name": "Go",
   "resource": "programming-languages",
-  "telemetry_types": ["logs"],
+  "telemetry_types": [
+    "logs"
+  ],
   "description": "Send logs from Go applications using HTTP requests",
+  "isOtel": false,
   "links": {
     "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/go"
   },

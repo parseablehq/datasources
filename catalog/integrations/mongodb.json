@@ -4,6 +4,7 @@
   "resource": "databases",
   "telemetry_types": ["metrics"],
   "description": "Monitor MongoDB database metrics using OpenTelemetry Collector",
+  "isOtel": true,
   "links": {
     "docs": "https://www.parseable.com/docs/ingest-data/databases/mongodb"
   },

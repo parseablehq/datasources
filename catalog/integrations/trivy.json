@@ -2,8 +2,11 @@
   "id": "trivy",
   "name": "Trivy",
   "resource": "security",
-  "telemetry_types": ["logs"],
+  "telemetry_types": [
+    "logs"
+  ],
   "description": "Send Trivy vulnerability scan results to Parseable for security monitoring",
+  "isOtel": false,
   "links": {
     "docs": "https://www.parseable.com/docs/ingest-data/security/trivy"
   },

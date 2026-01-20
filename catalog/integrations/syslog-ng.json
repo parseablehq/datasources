@@ -2,8 +2,11 @@
   "id": "syslog-ng",
   "name": "Syslog-ng",
   "resource": "telemetry-agents",
-  "telemetry_types": ["logs"],
+  "telemetry_types": [
+    "logs"
+  ],
   "description": "Syslog-ng Agent",
+  "isOtel": false,
   "links": {
     "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/syslog"
   },

@@ -2,8 +2,11 @@
   "id": "prometheus",
   "name": "Prometheus",
   "resource": "telemetry-agents",
-  "telemetry_types": ["metrics"],
+  "telemetry_types": [
+    "metrics"
+  ],
   "description": "Prometheus Agent",
+  "isOtel": true,
   "links": {
     "docs": "https://www.parseable.com/docs/ingest-data/logging-agents/prometheus"
   },

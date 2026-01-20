@@ -2,8 +2,11 @@
   "id": "javascript",
   "name": "JavaScript",
   "resource": "programming-languages",
-  "telemetry_types": ["logs"],
+  "telemetry_types": [
+    "logs"
+  ],
   "description": "Send logs from JavaScript/Node.js apps using Winston, Bunyan plugins or HTTP",
+  "isOtel": false,
   "links": {
     "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/javascript"
   },

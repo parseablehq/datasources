@@ -2,8 +2,11 @@
   "id": "google-pub-sub",
   "name": "Google Cloud Pub/Sub",
   "resource": "cloud-providers",
-  "telemetry_types": ["logs"],
+  "telemetry_types": [
+    "logs"
+  ],
   "description": "Stream logs from Google Cloud Pub/Sub to Parseable using Cloud Functions",
+  "isOtel": false,
   "links": {
     "docs": "https://www.parseable.com/docs/ingest-data/cloud/gcp-pubsub"
   },

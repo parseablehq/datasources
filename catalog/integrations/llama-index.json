@@ -2,10 +2,16 @@
   "id": "llama-index",
   "name": "LlamaIndex",
   "resource": "llm-ai-agents",
-  "telemetry_types": ["logs", "traces"],
+  "telemetry_types": [
+    "logs",
+    "traces"
+  ],
   "description": "Trace LlamaIndex queries, retrievers, and response synthesis for RAG observability",
+  "isOtel": false,
   "links": {
     "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/llamaindex"
   },
-  "assets": { "logo": "assets/llama-index.svg" }
+  "assets": {
+    "logo": "assets/llama-index.svg"
+  }
 }
