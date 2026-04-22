@@ -1,0 +1,17 @@
+{
+  "id": "litellm",
+  "name": "LiteLLM",
+  "resource": "llm-ai-agents",
+  "telemetry_types": [
+    "logs",
+    "traces"
+  ],
+  "description": "Send LiteLLM traces to Parseable through OpenTelemetry for LLM observability across 100+ providers",
+  "isOtel": true,
+  "links": {
+    "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/litellm"
+  },
+  "assets": {
+    "logo": "assets/litellm.svg"
+  }
+}

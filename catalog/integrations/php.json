@@ -1,0 +1,16 @@
+{
+  "id": "php",
+  "name": "PHP",
+  "resource": "programming-languages",
+  "telemetry_types": [
+    "logs"
+  ],
+  "description": "Send logs from PHP and Laravel/Symfony apps using HTTP or Monolog handler",
+  "isOtel": false,
+  "links": {
+    "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/php"
+  },
+  "assets": {
+    "logo": "assets/php.svg"
+  }
+}

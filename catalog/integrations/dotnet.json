@@ -1,0 +1,16 @@
+{
+  "id": "dotnet",
+  "name": ".NET",
+  "resource": "programming-languages",
+  "telemetry_types": [
+    "logs"
+  ],
+  "description": "Send structured logs from .NET and ASP.NET Core apps via HTTP or Serilog",
+  "isOtel": false,
+  "links": {
+    "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/dotnet"
+  },
+  "assets": {
+    "logo": "assets/dotnet.svg"
+  }
+}
