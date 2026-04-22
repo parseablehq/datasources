@@ -126,6 +126,22 @@
         }
       },
       {
+        "id": "litellm",
+        "name": "LiteLLM",
+        "telemetry_types": [
+          "logs",
+          "traces"
+        ],
+        "description": "Send LiteLLM traces to Parseable through OpenTelemetry for LLM observability across 100+ providers",
+        "isOtel": true,
+        "links": {
+          "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/litellm"
+        },
+        "assets": {
+          "logo": "assets/litellm.svg"
+        }
+      },
+      {
         "id": "llama-index",
         "name": "LlamaIndex",
         "telemetry_types": [
@@ -169,6 +185,38 @@
         },
         "assets": {
           "logo": "assets/openai.svg"
+        }
+      },
+      {
+        "id": "openrouter",
+        "name": "OpenRouter",
+        "telemetry_types": [
+          "logs",
+          "traces"
+        ],
+        "description": "Send LLM traces to Parseable using OpenRouter Broadcast, no code changes required",
+        "isOtel": true,
+        "links": {
+          "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/openrouter"
+        },
+        "assets": {
+          "logo": "assets/openrouter.svg"
+        }
+      },
+      {
+        "id": "vllm",
+        "name": "vLLM",
+        "telemetry_types": [
+          "metrics",
+          "traces"
+        ],
+        "description": "Monitor vLLM inference with OpenTelemetry, build dashboards, and analyze GPU costs for LLM serving",
+        "isOtel": true,
+        "links": {
+          "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/vllm"
+        },
+        "assets": {
+          "logo": "assets/vllm.svg"
         }
       }
     ]
@@ -494,6 +542,23 @@
     "resource": "streaming",
     "sources": [
       {
+        "id": "cribl",
+        "name": "Cribl",
+        "telemetry_types": [
+          "logs",
+          "metrics",
+          "traces"
+        ],
+        "description": "Forward telemetry from Cribl Stream to Parseable as an OpenTelemetry destination",
+        "isOtel": true,
+        "links": {
+          "docs": "https://www.parseable.com/docs/ingest-data/streaming/cribl"
+        },
+        "assets": {
+          "logo": "assets/cribl.svg"
+        }
+      },
+      {
         "id": "kafka",
         "name": "Kafka",
         "telemetry_types": [
@@ -769,6 +834,36 @@
     "resource": "programming-languages",
     "sources": [
       {
+        "id": "dotnet",
+        "name": ".NET",
+        "telemetry_types": [
+          "logs"
+        ],
+        "description": "Send structured logs from .NET and ASP.NET Core apps via HTTP or Serilog",
+        "isOtel": false,
+        "links": {
+          "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/dotnet"
+        },
+        "assets": {
+          "logo": "assets/dotnet.svg"
+        }
+      },
+      {
+        "id": "csharp",
+        "name": "C#",
+        "telemetry_types": [
+          "logs"
+        ],
+        "description": "Send logs from C# applications to Parseable using HttpClient",
+        "isOtel": false,
+        "links": {
+          "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/csharp"
+        },
+        "assets": {
+          "logo": "assets/csharp.svg"
+        }
+      },
+      {
         "id": "go",
         "name": "Go",
         "telemetry_types": [
@@ -814,6 +909,21 @@
         }
       },
       {
+        "id": "php",
+        "name": "PHP",
+        "telemetry_types": [
+          "logs"
+        ],
+        "description": "Send logs from PHP and Laravel/Symfony apps using HTTP or Monolog handler",
+        "isOtel": false,
+        "links": {
+          "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/php"
+        },
+        "assets": {
+          "logo": "assets/php.svg"
+        }
+      },
+      {
         "id": "python",
         "name": "Python",
         "telemetry_types": [
@@ -841,6 +951,21 @@
         },
         "assets": {
           "logo": "assets/ruby.svg"
+        }
+      },
+      {
+        "id": "rust",
+        "name": "Rust",
+        "telemetry_types": [
+          "logs"
+        ],
+        "description": "Send logs from Rust applications to Parseable using the reqwest HTTP client",
+        "isOtel": false,
+        "links": {
+          "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/rust"
+        },
+        "assets": {
+          "logo": "assets/rust.svg"
         }
       }
     ]

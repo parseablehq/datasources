@@ -1,0 +1,18 @@
+{
+  "id": "cribl",
+  "name": "Cribl",
+  "resource": "streaming",
+  "telemetry_types": [
+    "logs",
+    "metrics",
+    "traces"
+  ],
+  "description": "Forward telemetry from Cribl Stream to Parseable as an OpenTelemetry destination",
+  "isOtel": true,
+  "links": {
+    "docs": "https://www.parseable.com/docs/ingest-data/streaming/cribl"
+  },
+  "assets": {
+    "logo": "assets/cribl.svg"
+  }
+}

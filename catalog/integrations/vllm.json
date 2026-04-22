@@ -1,0 +1,17 @@
+{
+  "id": "vllm",
+  "name": "vLLM",
+  "resource": "llm-ai-agents",
+  "telemetry_types": [
+    "metrics",
+    "traces"
+  ],
+  "description": "Monitor vLLM inference with OpenTelemetry, build dashboards, and analyze GPU costs for LLM serving",
+  "isOtel": true,
+  "links": {
+    "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/vllm"
+  },
+  "assets": {
+    "logo": "assets/vllm.svg"
+  }
+}

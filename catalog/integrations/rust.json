@@ -1,0 +1,16 @@
+{
+  "id": "rust",
+  "name": "Rust",
+  "resource": "programming-languages",
+  "telemetry_types": [
+    "logs"
+  ],
+  "description": "Send logs from Rust applications to Parseable using the reqwest HTTP client",
+  "isOtel": false,
+  "links": {
+    "docs": "https://www.parseable.com/docs/ingest-data/programming-languages/rust"
+  },
+  "assets": {
+    "logo": "assets/rust.svg"
+  }
+}

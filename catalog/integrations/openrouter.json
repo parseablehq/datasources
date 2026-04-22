@@ -1,0 +1,17 @@
+{
+  "id": "openrouter",
+  "name": "OpenRouter",
+  "resource": "llm-ai-agents",
+  "telemetry_types": [
+    "logs",
+    "traces"
+  ],
+  "description": "Send LLM traces to Parseable using OpenRouter Broadcast, no code changes required",
+  "isOtel": true,
+  "links": {
+    "docs": "https://www.parseable.com/docs/ingest-data/ai-agents/openrouter"
+  },
+  "assets": {
+    "logo": "assets/openrouter.svg"
+  }
+}

@@ -160,6 +160,34 @@
     ]
   },
   {
+    "id": "litellm",
+    "name": "LiteLLM",
+    "resource": "llm-ai-agents",
+    "telemetry_types": [
+      "logs",
+      "traces"
+    ],
+    "tokens": [
+      "litellm",
+      "send",
+      "traces",
+      "to",
+      "parseable",
+      "through",
+      "opentelemetry",
+      "for",
+      "llm",
+      "observability",
+      "across",
+      "100",
+      "providers",
+      "llms",
+      "ai",
+      "agents",
+      "logs"
+    ]
+  },
+  {
     "id": "llama-index",
     "name": "LlamaIndex",
     "resource": "llm-ai-agents",
@@ -228,6 +256,63 @@
       "ai",
       "agents",
       "logs"
+    ]
+  },
+  {
+    "id": "openrouter",
+    "name": "OpenRouter",
+    "resource": "llm-ai-agents",
+    "telemetry_types": [
+      "logs",
+      "traces"
+    ],
+    "tokens": [
+      "openrouter",
+      "send",
+      "llm",
+      "traces",
+      "to",
+      "parseable",
+      "using",
+      "broadcast",
+      "no",
+      "code",
+      "changes",
+      "required",
+      "llms",
+      "ai",
+      "agents",
+      "logs"
+    ]
+  },
+  {
+    "id": "vllm",
+    "name": "vLLM",
+    "resource": "llm-ai-agents",
+    "telemetry_types": [
+      "metrics",
+      "traces"
+    ],
+    "tokens": [
+      "vllm",
+      "monitor",
+      "inference",
+      "with",
+      "opentelemetry",
+      "build",
+      "dashboards",
+      "and",
+      "analyze",
+      "gpu",
+      "costs",
+      "for",
+      "llm",
+      "serving",
+      "llms",
+      "ai",
+      "agents",
+      "metrics",
+      "traces"
     ]
   },
   {
@@ -666,6 +751,33 @@
     ]
   },
   {
+    "id": "cribl",
+    "name": "Cribl",
+    "resource": "streaming",
+    "telemetry_types": [
+      "logs",
+      "metrics",
+      "traces"
+    ],
+    "tokens": [
+      "cribl",
+      "forward",
+      "telemetry",
+      "from",
+      "stream",
+      "to",
+      "parseable",
+      "as",
+      "an",
+      "opentelemetry",
+      "destination",
+      "streaming",
+      "logs",
+      "metrics",
+      "traces"
+    ]
+  },
+  {
     "id": "kafka",
     "name": "Kafka",
     "resource": "streaming",
@@ -1017,6 +1129,52 @@
     ]
   },
   {
+    "id": "dotnet",
+    "name": ".NET",
+    "resource": "programming-languages",
+    "telemetry_types": [
+      "logs"
+    ],
+    "tokens": [
+      "net",
+      "send",
+      "structured",
+      "logs",
+      "from",
+      "and",
+      "asp",
+      "core",
+      "apps",
+      "via",
+      "http",
+      "or",
+      "serilog",
+      "programming",
+      "languages"
+    ]
+  },
+  {
+    "id": "csharp",
+    "name": "C#",
+    "resource": "programming-languages",
+    "telemetry_types": [
+      "logs"
+    ],
+    "tokens": [
+      "c",
+      "send",
+      "logs",
+      "from",
+      "applications",
+      "to",
+      "parseable",
+      "using",
+      "httpclient",
+      "programming",
+      "languages"
+    ]
+  },
+  {
     "id": "go",
     "name": "Go",
     "resource": "programming-languages",
@@ -1085,6 +1243,31 @@
     ]
   },
   {
+    "id": "php",
+    "name": "PHP",
+    "resource": "programming-languages",
+    "telemetry_types": [
+      "logs"
+    ],
+    "tokens": [
+      "php",
+      "send",
+      "logs",
+      "from",
+      "and",
+      "laravel",
+      "symfony",
+      "apps",
+      "using",
+      "http",
+      "or",
+      "monolog",
+      "handler",
+      "programming",
+      "languages"
+    ]
+  },
+  {
     "id": "python",
     "name": "Python",
     "resource": "programming-languages",
@@ -1127,6 +1310,30 @@
       "other",
       "framework",
       "support",
+      "programming",
+      "languages"
+    ]
+  },
+  {
+    "id": "rust",
+    "name": "Rust",
+    "resource": "programming-languages",
+    "telemetry_types": [
+      "logs"
+    ],
+    "tokens": [
+      "rust",
+      "send",
+      "logs",
+      "from",
+      "applications",
+      "to",
+      "parseable",
+      "using",
+      "the",
+      "reqwest",
+      "http",
+      "client",
       "programming",
       "languages"
     ]
