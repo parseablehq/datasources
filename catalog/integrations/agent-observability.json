@@ -3,7 +3,7 @@
 	"name": "Agent Observability",
 	"resource": "llm-ai-agents",
 	"telemetry_types": ["traces"],
-	"description": "Set up trace and log datasets for AI agent observability. Guided multi-step configuration.",
+	"description": "Set up trace datasets for AI agent observability. Guided multi-step configuration.",
 	"isOtel": true,
 	"links": {
 		"docs": "https://www.parseable.com/docs/user-guide/agent-observability/manual-instrumentation"
