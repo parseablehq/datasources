@@ -1,14 +1,14 @@
 {
-	"id": "agent-observability",
-	"name": "Agent Observability",
-	"resource": "llm-ai-agents",
-	"telemetry_types": ["traces"],
-	"description": "Set up trace datasets for AI agent observability. Guided multi-step configuration.",
-	"isOtel": true,
-	"links": {
-		"docs": "https://www.parseable.com/docs/user-guide/agent-observability"
-	},
-	"assets": {
-		"logo": "assets/agent.svg"
-	}
+  "id": "agent-observability",
+  "name": "Agent Observability",
+  "resource": "llm-ai-agents",
+  "telemetry_types": ["traces"],
+  "description": "Set up trace datasets for AI agent observability. Guided multi-step configuration.",
+  "isOtel": true,
+  "links": {
+    "docs": "https://www.parseable.com/docs/user-guide/agent-observability"
+  },
+  "assets": {
+    "logo": "assets/agent-observability.svg"
+  }
 }

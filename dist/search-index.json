@@ -39,6 +39,31 @@
     ]
   },
   {
+    "id": "agent-observability",
+    "name": "Agent Observability",
+    "resource": "llm-ai-agents",
+    "telemetry_types": [
+      "traces"
+    ],
+    "tokens": [
+      "agent",
+      "observability",
+      "set",
+      "up",
+      "trace",
+      "datasets",
+      "for",
+      "ai",
+      "guided",
+      "multi",
+      "step",
+      "configuration",
+      "llms",
+      "agents",
+      "traces"
+    ]
+  },
+  {
     "id": "anthropic",
     "name": "Anthropic",
     "resource": "llm-ai-agents",
