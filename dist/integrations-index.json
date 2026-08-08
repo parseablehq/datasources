@@ -39,6 +39,24 @@
     "resource_label": "eBPF",
     "resource_order": 2
   },
+  "agent-observability": {
+    "id": "agent-observability",
+    "name": "Agent Observability",
+    "resource": "llm-ai-agents",
+    "telemetry_types": [
+      "traces"
+    ],
+    "description": "Set up trace datasets for AI agent observability. Guided multi-step configuration.",
+    "isOtel": true,
+    "links": {
+      "docs": "https://www.parseable.com/docs/user-guide/agent-observability"
+    },
+    "assets": {
+      "logo": "assets/agent-observability.svg"
+    },
+    "resource_label": "LLMs & AI Agents",
+    "resource_order": 3
+  },
   "anthropic": {
     "id": "anthropic",
     "name": "Anthropic",
