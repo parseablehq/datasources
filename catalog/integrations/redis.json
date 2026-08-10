@@ -1,6 +1,7 @@
 {
   "id": "redis",
   "name": "Redis",
+  "dashboard": "redis-monitoring",
   "resource": "databases",
   "telemetry_types": ["metrics"],
   "description": "Monitor Redis cache metrics using OpenTelemetry Collector",

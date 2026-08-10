@@ -7,8 +7,13 @@
       {
         "id": "otel",
         "name": "Otel",
+        "dashboard": "otel-collector-metrics",
         "resource": "opentelemetry",
-        "telemetry_types": ["logs", "metrics", "traces"],
+        "telemetry_types": [
+          "logs",
+          "metrics",
+          "traces"
+        ],
         "description": "Ingest logs, metrics, and traces via OpenTelemetry Protocol (OTLP)",
         "isOtel": true,
         "links": {
@@ -31,7 +36,11 @@
         "id": "ebpf",
         "name": "eBPF",
         "resource": "ebpf",
-        "telemetry_types": ["logs", "metrics", "traces"],
+        "telemetry_types": [
+          "logs",
+          "metrics",
+          "traces"
+        ],
         "description": "eBPF Agent",
         "isOtel": false,
         "links": {
@@ -53,8 +62,11 @@
       {
         "id": "agent-observability",
         "name": "Agent Observability",
+        "dashboard": "agent-observability",
         "resource": "llm-ai-agents",
-        "telemetry_types": ["traces"],
+        "telemetry_types": [
+          "traces"
+        ],
         "description": "Set up trace datasets for AI agent observability. Guided multi-step configuration.",
         "isOtel": true,
         "links": {
@@ -70,7 +82,9 @@
         "id": "anthropic",
         "name": "Anthropic",
         "resource": "llm-ai-agents",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Log Anthropic Claude API calls and token usage for LLM observability",
         "isOtel": false,
         "links": {
@@ -86,7 +100,10 @@
         "id": "autogen",
         "name": "AutoGen",
         "resource": "llm-ai-agents",
-        "telemetry_types": ["logs", "traces"],
+        "telemetry_types": [
+          "logs",
+          "traces"
+        ],
         "description": "Trace Microsoft AutoGen multi-agent conversations and workflows",
         "isOtel": false,
         "links": {
@@ -101,8 +118,12 @@
       {
         "id": "crew-ai",
         "name": "CrewAI",
+        "dashboard": "crewai-observability",
         "resource": "llm-ai-agents",
-        "telemetry_types": ["logs", "traces"],
+        "telemetry_types": [
+          "logs",
+          "traces"
+        ],
         "description": "Trace CrewAI agent crews, tasks, and tool executions",
         "isOtel": false,
         "links": {
@@ -118,7 +139,10 @@
         "id": "dspy",
         "name": "DSPy",
         "resource": "llm-ai-agents",
-        "telemetry_types": ["logs", "traces"],
+        "telemetry_types": [
+          "logs",
+          "traces"
+        ],
         "description": "Trace DSPy programs, modules, and optimization runs",
         "isOtel": false,
         "links": {
@@ -134,7 +158,10 @@
         "id": "langchain",
         "name": "LangChain",
         "resource": "llm-ai-agents",
-        "telemetry_types": ["logs", "traces"],
+        "telemetry_types": [
+          "logs",
+          "traces"
+        ],
         "description": "Trace LangChain chains, agents, and tool calls for LLM observability",
         "isOtel": false,
         "links": {
@@ -150,7 +177,10 @@
         "id": "llama-index",
         "name": "LlamaIndex",
         "resource": "llm-ai-agents",
-        "telemetry_types": ["logs", "traces"],
+        "telemetry_types": [
+          "logs",
+          "traces"
+        ],
         "description": "Trace LlamaIndex queries, retrievers, and response synthesis for RAG observability",
         "isOtel": false,
         "links": {
@@ -166,7 +196,9 @@
         "id": "n8n",
         "name": "N8n",
         "resource": "llm-ai-agents",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Send n8n workflow execution logs to Parseable",
         "isOtel": false,
         "links": {
@@ -182,7 +214,9 @@
         "id": "openai",
         "name": "OpenAI",
         "resource": "llm-ai-agents",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Log OpenAI API calls, responses, and token usage for LLM observability",
         "isOtel": false,
         "links": {
@@ -205,7 +239,9 @@
         "id": "apache-log4j-2",
         "name": "Apache Log4j 2",
         "resource": "telemetry-agents",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Apache Log4j 2 Agent",
         "isOtel": false,
         "links": {
@@ -221,7 +257,9 @@
         "id": "filebeat",
         "name": "Filebeat",
         "resource": "telemetry-agents",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Lightweight log shipper for forwarding and centralizing log data",
         "isOtel": false,
         "links": {
@@ -237,7 +275,11 @@
         "id": "fluent-bit",
         "name": "Fluent Bit",
         "resource": "telemetry-agents",
-        "telemetry_types": ["logs", "metrics", "traces"],
+        "telemetry_types": [
+          "logs",
+          "metrics",
+          "traces"
+        ],
         "description": "Lightweight and fast log processor and forwarder that supports logs, metrics, and traces collection with OpenTelemetry support",
         "isOtel": true,
         "links": {
@@ -253,7 +295,9 @@
         "id": "fluentd",
         "name": "Fluentd",
         "resource": "telemetry-agents",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Open-source data collector for unified logging layer with flexible plugin architecture",
         "isOtel": false,
         "links": {
@@ -269,7 +313,9 @@
         "id": "logstash",
         "name": "Logstash",
         "resource": "telemetry-agents",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Server-side data processing pipeline that ingests, transforms, and sends logs to Parseable",
         "isOtel": false,
         "links": {
@@ -285,7 +331,9 @@
         "id": "prometheus",
         "name": "Prometheus",
         "resource": "telemetry-agents",
-        "telemetry_types": ["metrics"],
+        "telemetry_types": [
+          "metrics"
+        ],
         "description": "Prometheus Agent",
         "isOtel": true,
         "links": {
@@ -301,7 +349,9 @@
         "id": "promtail",
         "name": "Promtail",
         "resource": "telemetry-agents",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Log collection agent that ships logs to Parseable with label-based metadata enrichment",
         "isOtel": false,
         "links": {
@@ -317,7 +367,9 @@
         "id": "syslog-ng",
         "name": "Syslog-ng",
         "resource": "telemetry-agents",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Syslog-ng Agent",
         "isOtel": false,
         "links": {
@@ -333,7 +385,9 @@
         "id": "vector",
         "name": "Vector",
         "resource": "telemetry-agents",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "High-performance observability data pipeline for logs collection and transformation",
         "isOtel": false,
         "links": {
@@ -356,7 +410,9 @@
         "id": "elasticsearch",
         "name": "Elasticsearch",
         "resource": "databases",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Migrate log data from Elasticsearch to Parseable",
         "isOtel": false,
         "links": {
@@ -371,8 +427,11 @@
       {
         "id": "mongodb",
         "name": "MongoDB",
+        "dashboard": "mongodb-monitoring",
         "resource": "databases",
-        "telemetry_types": ["metrics"],
+        "telemetry_types": [
+          "metrics"
+        ],
         "description": "Monitor MongoDB database metrics using OpenTelemetry Collector",
         "isOtel": true,
         "links": {
@@ -387,8 +446,11 @@
       {
         "id": "mysql",
         "name": "MySQL",
+        "dashboard": "mysql-monitoring",
         "resource": "databases",
-        "telemetry_types": ["metrics"],
+        "telemetry_types": [
+          "metrics"
+        ],
         "description": "Monitor MySQL and MariaDB database metrics using OpenTelemetry Collector",
         "isOtel": true,
         "links": {
@@ -403,8 +465,11 @@
       {
         "id": "postgresql",
         "name": "PostgreSQL",
+        "dashboard": "postgres-monitoring",
         "resource": "databases",
-        "telemetry_types": ["metrics"],
+        "telemetry_types": [
+          "metrics"
+        ],
         "description": "Monitor PostgreSQL database metrics using OpenTelemetry Collector",
         "isOtel": true,
         "links": {
@@ -419,8 +484,11 @@
       {
         "id": "redis",
         "name": "Redis",
+        "dashboard": "redis-monitoring",
         "resource": "databases",
-        "telemetry_types": ["metrics"],
+        "telemetry_types": [
+          "metrics"
+        ],
         "description": "Monitor Redis cache metrics using OpenTelemetry Collector",
         "isOtel": true,
         "links": {
@@ -443,7 +511,9 @@
         "id": "aws-ecs",
         "name": "AWS ECS",
         "resource": "containers",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Collect container logs from Amazon ECS tasks using Fluent Bit sidecar or FireLens",
         "isOtel": false,
         "links": {
@@ -459,7 +529,9 @@
         "id": "aws-eks",
         "name": "AWS EKS",
         "resource": "containers",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Collect container logs from Amazon EKS clusters using Fluent Bit DaemonSet",
         "isOtel": true,
         "links": {
@@ -475,7 +547,9 @@
         "id": "azure-aks",
         "name": "Azure AKS",
         "resource": "containers",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Collect container logs from Azure Kubernetes Service clusters using Fluent Bit DaemonSet",
         "isOtel": true,
         "links": {
@@ -490,8 +564,11 @@
       {
         "id": "docker",
         "name": "Docker",
+        "dashboard": "docker-monitoring",
         "resource": "containers",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Collect container logs from Docker using Fluent Bit or native Docker logging drivers",
         "isOtel": false,
         "links": {
@@ -507,7 +584,9 @@
         "id": "gcp-gke",
         "name": "Google GKE",
         "resource": "containers",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Collect container logs from Google Kubernetes Engine clusters using Fluent Bit DaemonSet",
         "isOtel": true,
         "links": {
@@ -522,8 +601,11 @@
       {
         "id": "kubernetes",
         "name": "Kubernetes",
+        "dashboard": "k8s-cluster-monitoring",
         "resource": "containers",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Collect container logs from Kubernetes clusters using Fluent Bit DaemonSet",
         "isOtel": true,
         "links": {
@@ -546,7 +628,9 @@
         "id": "kafka",
         "name": "Kafka",
         "resource": "streaming",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Ingest logs from Apache Kafka topics using the Parseable Kafka Connector",
         "isOtel": false,
         "links": {
@@ -562,7 +646,9 @@
         "id": "nats",
         "name": "NATS",
         "resource": "streaming",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Ingest logs from NATS messaging system",
         "isOtel": false,
         "links": {
@@ -578,7 +664,9 @@
         "id": "rabbitmq",
         "name": "RabbitMQ",
         "resource": "streaming",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Ingest logs from RabbitMQ message queues",
         "isOtel": false,
         "links": {
@@ -594,7 +682,9 @@
         "id": "redpanda",
         "name": "Redpanda",
         "resource": "streaming",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Ingest logs from Redpanda streams using the Kafka-compatible connector",
         "isOtel": false,
         "links": {
@@ -616,8 +706,11 @@
       {
         "id": "argocd",
         "name": "ArgoCD",
+        "dashboard": "argo-cd",
         "resource": "ci-cd",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Send ArgoCD GitOps events and application logs to Parseable",
         "isOtel": false,
         "links": {
@@ -633,7 +726,9 @@
         "id": "circle-ci",
         "name": "CircleCI",
         "resource": "ci-cd",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Send CircleCI pipeline logs to Parseable for CI/CD observability",
         "isOtel": false,
         "links": {
@@ -649,7 +744,9 @@
         "id": "github-actions",
         "name": "GitHub Actions",
         "resource": "ci-cd",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Send GitHub Actions workflow logs to Parseable for CI/CD observability",
         "isOtel": true,
         "links": {
@@ -665,7 +762,9 @@
         "id": "gitlab",
         "name": "GitLab",
         "resource": "ci-cd",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Send GitLab CI/CD pipeline logs to Parseable for observability",
         "isOtel": true,
         "links": {
@@ -681,7 +780,9 @@
         "id": "jenkins",
         "name": "Jenkins",
         "resource": "ci-cd",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Send Jenkins build logs to Parseable for CI/CD observability",
         "isOtel": false,
         "links": {
@@ -697,7 +798,9 @@
         "id": "terraform",
         "name": "Terraform",
         "resource": "ci-cd",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Send Terraform execution logs and state changes to Parseable",
         "isOtel": false,
         "links": {
@@ -720,7 +823,9 @@
         "id": "aws-cloudwatch",
         "name": "AWS CloudWatch",
         "resource": "cloud-providers",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Stream CloudWatch logs to Parseable using Lambda subscription filters",
         "isOtel": true,
         "links": {
@@ -736,7 +841,9 @@
         "id": "aws-kinesis",
         "name": "AWS Kinesis",
         "resource": "cloud-providers",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Stream logs from AWS Kinesis Data Streams to Parseable",
         "isOtel": false,
         "links": {
@@ -752,7 +859,9 @@
         "id": "azure-events-hubs",
         "name": "Azure Events Hubs",
         "resource": "cloud-providers",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Stream logs from Azure Event Hubs to Parseable using Azure Functions",
         "isOtel": false,
         "links": {
@@ -768,7 +877,9 @@
         "id": "google-pub-sub",
         "name": "Google Cloud Pub/Sub",
         "resource": "cloud-providers",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Stream logs from Google Cloud Pub/Sub to Parseable using Cloud Functions",
         "isOtel": false,
         "links": {
@@ -791,7 +902,9 @@
         "id": "falco",
         "name": "Falco",
         "resource": "security",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Send Falco runtime security events to Parseable for threat detection",
         "isOtel": false,
         "links": {
@@ -807,7 +920,9 @@
         "id": "siem-export",
         "name": "SIEM Export",
         "resource": "security",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Export logs from Parseable to SIEM platforms like Splunk and Sentinel",
         "isOtel": false,
         "links": {
@@ -823,7 +938,9 @@
         "id": "trivy",
         "name": "Trivy",
         "resource": "security",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Send Trivy vulnerability scan results to Parseable for security monitoring",
         "isOtel": false,
         "links": {
@@ -845,8 +962,11 @@
       {
         "id": "go",
         "name": "Go",
+        "dashboard": "go-runtime-metrics",
         "resource": "programming-languages",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Send logs from Go applications using HTTP requests",
         "isOtel": false,
         "links": {
@@ -862,7 +982,9 @@
         "id": "java",
         "name": "Java",
         "resource": "programming-languages",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Send logs from Java applications using OkHttp or other HTTP clients",
         "isOtel": false,
         "links": {
@@ -878,7 +1000,9 @@
         "id": "javascript",
         "name": "JavaScript",
         "resource": "programming-languages",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Send logs from JavaScript/Node.js apps using Winston, Bunyan plugins or HTTP",
         "isOtel": false,
         "links": {
@@ -894,7 +1018,9 @@
         "id": "python",
         "name": "Python",
         "resource": "programming-languages",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Send logs from Python applications using HTTP requests or logging libraries",
         "isOtel": false,
         "links": {
@@ -910,7 +1036,9 @@
         "id": "ruby",
         "name": "Ruby",
         "resource": "programming-languages",
-        "telemetry_types": ["logs"],
+        "telemetry_types": [
+          "logs"
+        ],
         "description": "Send logs from Ruby applications with Rails, Sinatra, and other framework support",
         "isOtel": false,
         "links": {

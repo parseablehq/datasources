@@ -1,6 +1,7 @@
 {
   "id": "otel",
   "name": "Otel",
+  "dashboard": "otel-collector-metrics",
   "resource": "opentelemetry",
   "telemetry_types": ["logs", "metrics", "traces"],
   "description": "Ingest logs, metrics, and traces via OpenTelemetry Protocol (OTLP)",

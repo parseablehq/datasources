@@ -1,6 +1,7 @@
 {
   "id": "mysql",
   "name": "MySQL",
+  "dashboard": "mysql-monitoring",
   "resource": "databases",
   "telemetry_types": ["metrics"],
   "description": "Monitor MySQL and MariaDB database metrics using OpenTelemetry Collector",

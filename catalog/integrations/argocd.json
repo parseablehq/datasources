@@ -1,6 +1,7 @@
 {
   "id": "argocd",
   "name": "ArgoCD",
+  "dashboard": "argo-cd",
   "resource": "ci-cd",
   "telemetry_types": [
     "logs"

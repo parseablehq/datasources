@@ -1,6 +1,7 @@
 {
   "id": "docker",
   "name": "Docker",
+  "dashboard": "docker-monitoring",
   "resource": "containers",
   "telemetry_types": [
     "logs"

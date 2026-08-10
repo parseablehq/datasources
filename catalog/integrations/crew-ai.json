@@ -1,6 +1,7 @@
 {
   "id": "crew-ai",
   "name": "CrewAI",
+  "dashboard": "crewai-observability",
   "resource": "llm-ai-agents",
   "telemetry_types": [
     "logs",

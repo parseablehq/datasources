@@ -1,6 +1,7 @@
 {
   "id": "mongodb",
   "name": "MongoDB",
+  "dashboard": "mongodb-monitoring",
   "resource": "databases",
   "telemetry_types": ["metrics"],
   "description": "Monitor MongoDB database metrics using OpenTelemetry Collector",

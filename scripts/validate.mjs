@@ -41,6 +41,13 @@ for (const file of files) {
   if (!obj.name) throw new Error(`Missing name in ${relPath}`);
   if (!obj.description) throw new Error(`Missing description in ${relPath}`);
 
+  if (
+    "dashboard" in obj &&
+    (typeof obj.dashboard !== "string" || obj.dashboard.length === 0)
+  ) {
+    throw new Error(`dashboard must be a non-empty string in ${relPath}`);
+  }
+
   if (!obj.resource || !resourceIds.has(obj.resource)) {
     throw new Error(`Invalid or missing resource in ${relPath}`);
   }

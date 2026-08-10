@@ -2,6 +2,7 @@
   "otel": {
     "id": "otel",
     "name": "Otel",
+    "dashboard": "otel-collector-metrics",
     "resource": "opentelemetry",
     "telemetry_types": [
       "logs",
@@ -42,6 +43,7 @@
   "agent-observability": {
     "id": "agent-observability",
     "name": "Agent Observability",
+    "dashboard": "agent-observability",
     "resource": "llm-ai-agents",
     "telemetry_types": [
       "traces"
@@ -97,6 +99,7 @@
   "crew-ai": {
     "id": "crew-ai",
     "name": "CrewAI",
+    "dashboard": "crewai-observability",
     "resource": "llm-ai-agents",
     "telemetry_types": [
       "logs",
@@ -391,6 +394,7 @@
   "mongodb": {
     "id": "mongodb",
     "name": "MongoDB",
+    "dashboard": "mongodb-monitoring",
     "resource": "databases",
     "telemetry_types": [
       "metrics"
@@ -409,6 +413,7 @@
   "mysql": {
     "id": "mysql",
     "name": "MySQL",
+    "dashboard": "mysql-monitoring",
     "resource": "databases",
     "telemetry_types": [
       "metrics"
@@ -427,6 +432,7 @@
   "postgresql": {
     "id": "postgresql",
     "name": "PostgreSQL",
+    "dashboard": "postgres-monitoring",
     "resource": "databases",
     "telemetry_types": [
       "metrics"
@@ -445,6 +451,7 @@
   "redis": {
     "id": "redis",
     "name": "Redis",
+    "dashboard": "redis-monitoring",
     "resource": "databases",
     "telemetry_types": [
       "metrics"
@@ -517,6 +524,7 @@
   "docker": {
     "id": "docker",
     "name": "Docker",
+    "dashboard": "docker-monitoring",
     "resource": "containers",
     "telemetry_types": [
       "logs"
@@ -553,6 +561,7 @@
   "kubernetes": {
     "id": "kubernetes",
     "name": "Kubernetes",
+    "dashboard": "k8s-cluster-monitoring",
     "resource": "containers",
     "telemetry_types": [
       "logs"
@@ -643,6 +652,7 @@
   "argocd": {
     "id": "argocd",
     "name": "ArgoCD",
+    "dashboard": "argo-cd",
     "resource": "ci-cd",
     "telemetry_types": [
       "logs"
@@ -877,6 +887,7 @@
   "go": {
     "id": "go",
     "name": "Go",
+    "dashboard": "go-runtime-metrics",
     "resource": "programming-languages",
     "telemetry_types": [
       "logs"
