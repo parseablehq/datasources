@@ -1,6 +1,7 @@
 {
   "id": "agent-observability",
   "name": "Agent Observability",
+  "dashboard": "agent-observability",
   "resource": "llm-ai-agents",
   "telemetry_types": ["traces"],
   "description": "Set up trace datasets for AI agent observability. Guided multi-step configuration.",

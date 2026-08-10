@@ -6,6 +6,7 @@ export type TelemetryType = "logs" | "metrics" | "traces";
 export type Integration = {
   id: string;
   name: string;
+  dashboard?: string;
   description: string;
   telemetry_types: TelemetryType[];
   resource: string;

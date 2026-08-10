@@ -1,6 +1,7 @@
 {
   "id": "postgresql",
   "name": "PostgreSQL",
+  "dashboard": "postgres-monitoring",
   "resource": "databases",
   "telemetry_types": ["metrics"],
   "description": "Monitor PostgreSQL database metrics using OpenTelemetry Collector",

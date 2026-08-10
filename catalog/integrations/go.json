@@ -1,6 +1,7 @@
 {
   "id": "go",
   "name": "Go",
+  "dashboard": "go-runtime-metrics",
   "resource": "programming-languages",
   "telemetry_types": [
     "logs"

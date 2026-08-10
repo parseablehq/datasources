@@ -1,6 +1,7 @@
 {
   "id": "kubernetes",
   "name": "Kubernetes",
+  "dashboard": "k8s-cluster-monitoring",
   "resource": "containers",
   "telemetry_types": [
     "logs"

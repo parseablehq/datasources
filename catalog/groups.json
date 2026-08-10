@@ -5,6 +5,7 @@
       {
         "id": "otel",
         "name": "Otel",
+        "dashboard": "otel-collector-metrics",
         "telemetry_types": [
           "logs",
           "metrics",
@@ -49,6 +50,7 @@
       {
         "id": "agent-observability",
         "name": "Agent Observability",
+        "dashboard": "agent-observability",
         "telemetry_types": [
           "traces"
         ],
@@ -95,6 +97,7 @@
       {
         "id": "crew-ai",
         "name": "CrewAI",
+        "dashboard": "crewai-observability",
         "telemetry_types": [
           "logs",
           "traces"
@@ -351,6 +354,7 @@
       {
         "id": "mongodb",
         "name": "MongoDB",
+        "dashboard": "mongodb-monitoring",
         "telemetry_types": [
           "metrics"
         ],
@@ -366,6 +370,7 @@
       {
         "id": "mysql",
         "name": "MySQL",
+        "dashboard": "mysql-monitoring",
         "telemetry_types": [
           "metrics"
         ],
@@ -381,6 +386,7 @@
       {
         "id": "postgresql",
         "name": "PostgreSQL",
+        "dashboard": "postgres-monitoring",
         "telemetry_types": [
           "metrics"
         ],
@@ -396,6 +402,7 @@
       {
         "id": "redis",
         "name": "Redis",
+        "dashboard": "redis-monitoring",
         "telemetry_types": [
           "metrics"
         ],
@@ -461,6 +468,7 @@
       {
         "id": "docker",
         "name": "Docker",
+        "dashboard": "docker-monitoring",
         "telemetry_types": [
           "logs"
         ],
@@ -491,6 +499,7 @@
       {
         "id": "kubernetes",
         "name": "Kubernetes",
+        "dashboard": "k8s-cluster-monitoring",
         "telemetry_types": [
           "logs"
         ],
@@ -576,6 +585,7 @@
       {
         "id": "argocd",
         "name": "ArgoCD",
+        "dashboard": "argo-cd",
         "telemetry_types": [
           "logs"
         ],
@@ -786,6 +796,7 @@
       {
         "id": "go",
         "name": "Go",
+        "dashboard": "go-runtime-metrics",
         "telemetry_types": [
           "logs"
         ],
